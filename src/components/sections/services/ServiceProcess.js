@@ -7,25 +7,25 @@ const steps = [
     step: "01",
     title: "Consultation",
     description:
-      "Share your vision in a private, no-obligation session — in person or via video call.",
+      "Meet with our jewellery experts to discuss your ideas, style, budget, and preferences for a personalised design experience.",
   },
   {
     step: "02",
-    title: "Design & Sketch",
+    title: "Design & Approval",
     description:
-      "Our designers translate your ideas into detailed sketches and 3D renders for your approval.",
+      "We create detailed design concepts and refine every element with your feedback before the crafting process begins.",
   },
   {
     step: "03",
-    title: "Craft & Refine",
+    title: "Craft & Perfect",
     description:
-      "Master artisans bring the design to life, with check-ins at each stage for your peace of mind.",
+      "Our skilled artisans carefully handcraft your jewellery using premium materials, ensuring precision in every detail.",
   },
   {
     step: "04",
-    title: "Deliver & Celebrate",
+    title: "Deliver & Treasure",
     description:
-      "Your finished piece is presented in our signature packaging, ready to become an heirloom.",
+      "Receive your beautifully finished jewellery, crafted to celebrate life's special moments and be cherished for generations.",
   },
 ];
 
@@ -46,8 +46,8 @@ export default function ServiceProcess() {
               Your Journey With Us
             </h2>
             <p className="mt-4 text-sm sm:text-base text-[#666] font-light max-w-lg mx-auto leading-relaxed">
-              From first conversation to final reveal — a seamless,
-              transparent process built around you.
+              From your first consultation to the final handcrafted piece, our process is transparent, personalised, and designed to
+              bring your vision to life with complete confidence.
             </p>
           </div>
         </RevealOnScroll>
@@ -102,24 +102,23 @@ export default function ServiceProcess() {
 
             <div className="relative">
               <h3 className="text-2xl sm:text-3xl md:text-4xl font-serif text-white tracking-tight mb-4">
-                Ready to Create Something Extraordinary?
+                Ready to Create Your Perfect Jewellery?
               </h3>
               <p className="text-sm sm:text-base text-white/60 font-light max-w-lg mx-auto leading-relaxed mb-8">
-                Book a complimentary consultation with our design team and
-                let&rsquo;s bring your dream piece to life.
+                Whether you&apos;re designing a bespoke ring, choosing wedding jewellery, or creating a personalised heirloom, our experts are here to bring your vision to life with exceptional craftsmanship.
               </p>
               <div className="flex flex-wrap items-center justify-center gap-4">
                 <a
                   href="/contact"
                   className="bg-white text-[#1B4341] px-8 py-3.5 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-[#EADFC9] transition-all shadow-lg transform hover:-translate-y-0.5"
                 >
-                  Book Free Consultation
+                  Book a Consultation
                 </a>
                 <a
                   href="tel:+610000000000"
                   className="border border-white/30 text-white px-8 py-3.5 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-white/10 transition-all"
                 >
-                  Call Us Now
+                  Call Us Today
                 </a>
               </div>
             </div>

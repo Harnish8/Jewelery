@@ -7,29 +7,29 @@ export default function About() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <RevealOnScroll mode="fade-in-up" className="lg:col-span-6">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-[#1B4341] block mb-3">
-            ✿ Our Australian Sustainable Heritage
+            ✿ ABOUT GR JEWELLERS
           </span>
           <h2 className="text-4xl sm:text-6xl font-serif font-light text-[#1B4341] leading-tight">
-            <TextSplitReveal text="About Eglanto Maison Australia" type="words" />
+            <TextSplitReveal text="Where Heritage Meets Timeless Craftsmanship" type="words" />
           </h2>
           <p className="mt-6 text-sm sm:text-base text-[#666] font-light leading-relaxed">
-            Founded on the Australian philosophy that true luxury must protect our pristine natural landscapes, Eglanto is an esteemed brand house dedicated exclusively to 100% recycled Australian 18k gold and Western Australian conflict-free gemstone curation.
+            Founded in 2003 in Anand, Gujarat, GR Jewellers has built its reputation on trust, exceptional craftsmanship, and lasting customer relationships. Established by Hasmukhbhai Coorthunbhai Soni and Rajeshbhai Hasmukhbhai Soni, our passion for fine jewellery continues to inspire every creation, blending traditional artistry with contemporary elegance.
           </p>
           <p className="mt-4 text-sm sm:text-base text-[#666] font-light leading-relaxed">
-            We do not operate transactional e-commerce storefronts. Instead, our creations are handcrafted in numbered editions within our carbon-negative **Sydney & Melbourne Ateliers**, celebrating private salon relationships with discerning patrons.
+            From custom and personalised jewellery to exquisite diamond jewellery, gold jewellery, gemstone jewellery, and colour stone jewellery, every piece is thoughtfully crafted by our GIA Certified Jewellery Designer. Whether celebrating life&apos;s milestones or creating a treasured family heirloom, we are committed to delivering jewellery that reflects your story with unmatched quality and precision.
           </p>
           <div className="mt-8 grid grid-cols-3 gap-6 pt-6 border-t border-[#EADFC9]">
             <div>
-              <span className="text-xl sm:text-2xl font-serif font-bold text-[#1B4341] block">AUSTRALIAN</span>
-              <span className="text-[10px] uppercase tracking-wider text-[#777]">100% Recycled Gold</span>
+              <span className="text-xl sm:text-2xl font-serif font-bold text-[#1B4341] block">ESTABLISHED</span>
+              <span className="text-[10px] uppercase tracking-wider text-[#777]">2003 • Anand, Gujarat</span>
             </div>
             <div>
-              <span className="text-xl sm:text-2xl font-serif font-bold text-[#1B4341] block">SYDNEY • MELB</span>
-              <span className="text-[10px] uppercase tracking-wider text-[#777]">Carbon-Negative Ateliers</span>
+              <span className="text-xl sm:text-2xl font-serif font-bold text-[#1B4341] block">SPECIALISTS</span>
+              <span className="text-[10px] uppercase tracking-wider text-[#777]">Diamonds, Gemstones & Colour Stones</span>
             </div>
             <div>
               <span className="text-xl sm:text-2xl font-serif font-bold text-[#1B4341] block">BESPOKE</span>
-              <span className="text-[10px] uppercase tracking-wider text-[#777]">Private Appointments</span>
+              <span className="text-[10px] uppercase tracking-wider text-[#777]">Custom & Personalised Jewellery</span>
             </div>
           </div>
         </RevealOnScroll>
@@ -38,13 +38,13 @@ export default function About() {
           <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-[#EADFC9]">
             <img
               src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1000&q=80"
-              alt="Eglanto Australian Sustainable Atelier Craftsmanship"
+              alt="G R Jewellers Indian Craftsmanship"
               className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-1000"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#1B4341]/80 via-transparent to-transparent"></div>
             <div className="absolute bottom-6 left-6 text-white">
-              <span className="text-xs uppercase tracking-widest text-amber-200 font-semibold">Sydney • Melbourne • Perth Ateliers</span>
-              <p className="text-2xl font-serif mt-1">Sculpted Under Australian Skies</p>
+              <span className="text-xs uppercase tracking-widest text-amber-200 font-semibold">ANAND • GUJARAT • SERVING CLIENTS WORLDWIDE</span>
+              <p className="text-2xl font-serif mt-1">Crafted with Heritage. Designed for Generations.</p>
             </div>
           </div>
         </RevealOnScroll>

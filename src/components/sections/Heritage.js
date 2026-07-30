@@ -29,20 +29,20 @@ export default function Heritage() {
         {/* Right Text Content (Span 6) */}
         <RevealOnScroll mode="fade-in-up" delay={200} className="lg:col-span-6 pl-0 lg:pl-6 text-center lg:text-left">
           <span className="text-xs uppercase tracking-[0.25em] text-[#1B4341] font-bold block mb-3">
-            Heirloom Craftsmanship
+            OUR HERITAGE
           </span>
           <h2 className="text-4xl sm:text-6xl font-serif font-light text-[#1B4341] leading-tight">
-            <TextSplitReveal text="Tradition Cared For Since 1970" type="words" />
+            <TextSplitReveal text="Crafting Timeless Jewellery Since 2003" type="words" />
           </h2>
           <p className="mt-6 text-sm sm:text-base text-[#666] font-light leading-relaxed max-w-lg mx-auto lg:mx-0">
-            For more than five decades, our master artisans have dedicated their lives to preserving traditional metalsmithing while incorporating modern design aesthetics that make every piece truly remarkable.
+            Established in 2003 in Anand, Gujarat, GR Jewellers was founded by Hasmukhbhai Coorthunbhai Soni and Rajeshbhai Hasmukhbhai Soni with a passion for fine jewellery and trusted craftsmanship. Today, we continue that legacy by creating custom and personalised jewellery, elegant diamond jewellery, gold jewellery, and colour stone jewellery, thoughtfully designed by our GIA Certified Jewellery Designer. Every creation reflects our commitment to quality, honesty, and lasting relationships with every customer.
           </p>
           <div className="mt-8">
             <Link
               href="#products"
               className="inline-flex items-center gap-2 bg-[#1B4341] text-white px-8 py-4 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-[#122D2B] transition-all shadow-md transform hover:-translate-y-0.5"
             >
-              <span>See All Products</span>
+              <span>Discover Our Heritage</span>
               <IconArrowRight className="w-4 h-4" />
             </Link>
           </div>

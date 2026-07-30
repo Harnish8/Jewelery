@@ -5,30 +5,30 @@ import { RevealOnScroll } from "@/components/LuxuryEffects";
 const reasons = [
   {
     number: "01",
-    title: "Master Craftsmanship",
+    title: "100+ Years of Heritage",
     description:
-      "Over five decades of jewellery-making expertise passed down through generations. Every piece is meticulously handcrafted by our skilled artisans.",
+      "Built on four generations of craftsmanship, GR Jewellers continues a legacy of quality, purity, and trust that families have relied on for over a century.",
     icon: "🔨",
   },
   {
     number: "02",
-    title: "Ethically Sourced Materials",
+    title: "GIA-Certified Expertise",
     description:
-      "We use 100% recycled gold and conflict-free, certified natural diamonds. Luxury that you can feel good about wearing.",
+      "Our GIA-certified gemologist specialises in diamonds, gemstones, and colour stones, helping you choose jewellery with complete confidence.",
     icon: "🌿",
   },
   {
     number: "03",
-    title: "Personalised Experience",
+    title: "Custom & Personalised Designs",
     description:
-      "From private consultations to bespoke design sessions, every client receives dedicated, white-glove service tailored to their vision.",
+      "From bespoke engagement rings to personalised heirloom jewellery, we transform your ideas into handcrafted creations made exclusively for you.",
     icon: "✨",
   },
   {
     number: "04",
-    title: "Lifetime Guarantee",
+    title: "Trusted Quality & Purity",
     description:
-      "Every Eglanto piece comes with a lifetime craftsmanship warranty, complimentary cleaning, and free annual inspections for your peace of mind.",
+      "Every piece is crafted using premium gold, silver, platinum, certified diamonds, and carefully selected gemstones, ensuring exceptional quality and lasting beauty.",
     icon: "🛡️",
   },
 ];
@@ -44,17 +44,16 @@ export default function WhyChooseUs() {
               <div className="flex items-center gap-3 mb-6">
                 <span className="h-px w-8 bg-[#1B4341]/30" />
                 <span className="text-[11px] font-bold uppercase tracking-[0.3em] text-[#1B4341]">
-                  Why Eglanto
+                  Why GR JEWELLERS
                 </span>
               </div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-[#1B4341] tracking-tight leading-tight">
-                The Eglanto
+                The GR Jewellers
                 <br />
                 <span className="text-[#6B5B3E]">Difference</span>
               </h2>
               <p className="mt-6 text-sm sm:text-base text-[#666] font-light leading-relaxed max-w-sm">
-                We don&rsquo;t just make jewellery — we create lasting legacies.
-                Here&rsquo;s what sets us apart from every other jeweller.
+                For over a century, we&apos;ve combined heritage craftsmanship with modern expertise to create jewellery that&apos;s trusted, personalised, and crafted to last for generations
               </p>
 
               <div className="mt-8 hidden lg:block">
@@ -62,7 +61,7 @@ export default function WhyChooseUs() {
                   href="/contact"
                   className="inline-flex items-center gap-2 bg-[#1B4341] text-white px-8 py-3.5 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-[#122D2B] transition-all shadow-md transform hover:-translate-y-0.5"
                 >
-                  Start Your Journey
+                  Book a Consultation
                 </a>
               </div>
             </RevealOnScroll>

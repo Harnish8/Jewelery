@@ -9,12 +9,14 @@ const services = [
     icon: IconGem,
     title: "Bespoke Ring Designs",
     description:
-      "Every love story is unique — so should be the ring that symbolises it. Our master artisans collaborate with you from the first sketch to the final polish, creating a one-of-a-kind piece that captures your personal narrative in precious metal and stone.",
+      "Every special moment deserves a ring designed exclusively for you. Our bespoke ring design service combines traditional craftsmanship with modern creativity to create custom engagement rings, wedding rings, and personalised jewellery that reflects your unique style. From the initial consultation to the final handcrafted piece, our artisans ensure every detail is crafted to perfection using premium gold, certified diamonds, gemstones, and colour stones.",
     highlights: [
-      "One-on-one design consultation",
-      "CAD rendering & 3D preview",
-      "Hand-set ethically sourced gemstones",
-      "Lifetime craftsmanship warranty",
+      "One-to-one jewellery design consultation",
+      "CAD design & 3D visual preview",
+      "GIA-certified diamond & gemstone guidance",
+      "Custom engagement & wedding ring design",
+      "Premium gold, diamonds, gemstones & colour stones",
+      "Handcrafted with exceptional precision and care",
     ],
     image:
       "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
@@ -24,12 +26,14 @@ const services = [
     icon: IconAward,
     title: "Wedding Jewellery Specialist",
     description:
-      "From engagement rings to bridal sets, ceremony bands to wedding-day accessories — we create a cohesive, stunning collection that makes your special day truly unforgettable. Every piece is designed to complement your style and your story.",
+      "Celebrate your special day with beautifully crafted wedding jewellery designed to match your story. From custom engagement rings and bridal jewellery to couple wedding rings and personalised wedding bands, we create elegant pieces that blend timeless craftsmanship with your unique style. Every design is handcrafted to make your wedding memories last a lifetime.",
     highlights: [
-      "Complete bridal jewellery packages",
-      "Matching bands for couples",
-      "Custom engraving & personalisation",
-      "Rush service available",
+      "Custom bridal jewellery & wedding sets",
+      "Bespoke engagement & wedding rings",
+      "Matching wedding bands for couples",
+      "Personalised engraving & jewellery customisation",
+      "Gold, diamond, gemstone & colour stone options",
+      "Expert guidance from design to final creation",
     ],
     image:
       "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80",
@@ -39,12 +43,14 @@ const services = [
     icon: IconLeaf,
     title: "Gold, Silver & Diamond Retailer",
     description:
-      "Access our curated collection of fine jewellery crafted from ethically sourced gold, sterling silver, and certified natural diamonds. Each piece undergoes rigorous quality assurance and comes with full certification for your peace of mind.",
+      "Discover an exquisite collection of gold, silver, diamond, gemstone, and colour stone jewellery crafted with exceptional quality and timeless elegance. From everyday luxury to special occasions, GR Jewellers offers certified diamonds, handcrafted gold jewellery, and personalised designs that combine heritage craftsmanship with modern sophistication.",
     highlights: [
-      "Certified natural diamonds",
-      "18K & 22K gold options",
-      "925 sterling silver collection",
-      "Full gemological certification",
+      "Certified natural & lab-grown diamond jewellery",
+      "Gold, silver, platinum, gemstone & colour stone collections",
+      "GIA-certified diamond & gemstone expertise",
+      "Custom jewellery & personalised design services",
+      "Trusted quality, purity & authentic craftsmanship",
+      "Elegant jewellery for every occasion",
     ],
     image:
       "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=800&q=80",
@@ -70,8 +76,7 @@ export default function ServicesList() {
               Services We Offer
             </h2>
             <p className="mt-4 text-sm sm:text-base text-[#666] font-light max-w-xl mx-auto leading-relaxed">
-              Decades of craftsmanship distilled into three pillars of luxury service, 
-              each designed to exceed expectations.
+              Backed by over 100 years of family craftsmanship, we offer bespoke ring designs, wedding jewellery, and exquisite gold, silver, and diamond collections, thoughtfully crafted to be treasured for generations.
             </p>
           </div>
         </RevealOnScroll>

@@ -9,7 +9,7 @@ export default function Testimonial() {
           Client Stories
         </span>
         <h2 className="text-4xl sm:text-5xl font-serif font-light text-[#1B4341]">
-          What People Say
+          What Our Clients Say
         </h2>
       </RevealOnScroll>
 
@@ -18,10 +18,10 @@ export default function Testimonial() {
         <div className="md:col-span-7">
           <div className="text-5xl font-serif text-[#1B4341]/30 mb-4">&ldquo;</div>
           <p className="text-xl sm:text-2xl font-serif text-[#1B4341] leading-relaxed italic">
-            &ldquo;Amazing service. My ring was a bit too big and they offered to resize it for free and very swiftly. The craftsmanship is breathtaking and the ethical diamond really sparkles.&rdquo;
+            &ldquo;I wanted a ring that reflected my family&apos;s heritage but also suited my personal style. The team at GR Jewellers listened carefully, guided me through every detail, and created a beautiful custom piece that exceeded my expectations. The craftsmanship, attention to detail, and quality of the diamonds were truly exceptional.&rdquo;
           </p>
           <div className="mt-6">
-            <h4 className="font-bold font-sans text-sm text-[#1D1D1D] uppercase tracking-wider">Kathryn Murphy</h4>
+            <h4 className="font-bold font-sans text-sm text-[#1D1D1D] uppercase tracking-wider">PRIYA PATEL</h4>
             <span className="text-xs text-[#666]">London, United Kingdom</span>
           </div>
         </div>

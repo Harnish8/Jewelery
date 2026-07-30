@@ -4,9 +4,9 @@ import WhyChooseUs from "@/components/sections/services/WhyChooseUs";
 import ServiceProcess from "@/components/sections/services/ServiceProcess";
 
 export const metadata = {
-  title: "Services | Eglanto — Bespoke Jewellery & Wedding Specialist",
+  title: "Services | G R Jewellers — Bespoke Jewellery & Wedding Specialist",
   description:
-    "Bespoke ring designs, wedding jewellery specialist, and ethically sourced gold, silver & diamond retailer. Discover Eglanto's luxury services.",
+    "Bespoke ring designs, wedding jewellery specialist, and ethically sourced gold, silver & diamond retailer. Discover G R Jewellers luxury services.",
 };
 
 export default function ServicesPage() {

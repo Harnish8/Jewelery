@@ -27,7 +27,7 @@ export default function ContactForm() {
             Request Private Consultation
           </h2>
           <p className="text-xs sm:text-sm text-zinc-300 font-light mt-3 leading-relaxed">
-            Connect with an Eglanto private jeweler to schedule a personal viewing, inquire about our archive creations, or commission a personalized ethical gold heirloom.
+            Connect with an G R Jewellers private jeweler to schedule a personal viewing, inquire about our archive creations, or commission a personalized ethical gold heirloom.
           </p>
         </div>
 

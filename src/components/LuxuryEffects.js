@@ -312,7 +312,7 @@ export function HorizontalScrollShowcase({
                     {item.spec || item.price || "Bespoke Archive"}
                   </span>
                   <a href="#contact" className="px-5 py-2 rounded-full bg-black text-white text-xs font-bold uppercase tracking-wider hover:bg-amber-600 transition-colors">
-                    Inquire Vault
+                    Explore Collection
                   </a>
                 </div>
               </div>

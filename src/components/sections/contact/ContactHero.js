@@ -19,13 +19,12 @@ export default function ContactHero() {
         <h1 className="text-4xl sm:text-6xl md:text-7xl font-serif font-light text-[#1B4341] leading-[1.1]">
           <TextSplitReveal text="Let's Create" type="words" delay={150} />
           <br />
-          <TextSplitReveal text="Something Timeless" type="words" delay={300} />
+          <TextSplitReveal text="Something Beautiful Together" type="words" delay={300} />
         </h1>
 
         <RevealOnScroll mode="fade-in-up" delay={550}>
           <p className="mt-6 text-sm sm:text-base text-[#555] font-light max-w-lg mx-auto leading-relaxed">
-            Whether you&rsquo;re commissioning a bespoke piece or simply have a question about
-            our archives, our private advisors are here to help.
+            Whether you&apos;re searching for the perfect piece, designing custom jewellery, or looking for expert advice on diamonds, gemstones, and wedding jewellery, our team is ready to help. Visit our showroom or get in touch - we&apos;d love to hear from you.
           </p>
         </RevealOnScroll>
       </div>

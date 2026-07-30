@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <Link href="/" className="flex items-center gap-2 text-3xl font-serif font-bold text-white mb-4">
             <span className="w-8 h-8 rounded-full bg-white text-[#1B4341] flex items-center justify-center text-sm font-serif">✿</span>
-            <span>Eglanto</span>
+            <span>G R Jewellers</span>
           </Link>
           <p className="text-xs text-zinc-300 leading-relaxed max-w-xs">
             Sustainable gold & ethical gemstones crafted for modern elegance and heirloom preservation since 1970.
@@ -65,7 +65,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-400">
-        <p>Copyright © {new Date().getFullYear()} Eglanto. All rights reserved.</p>
+        <p>Copyright © {new Date().getFullYear()} G R Jewellers. All rights reserved.</p>
         <div className="flex gap-6 mt-4 sm:mt-0">
           <a href="#privacy" className="hover:text-white">Privacy Policy</a>
           <a href="#terms" className="hover:text-white">Terms of Use</a>

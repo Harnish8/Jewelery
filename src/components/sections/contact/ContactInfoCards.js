@@ -4,23 +4,23 @@ import { RevealOnScroll, Card3DTilt } from "@/components/LuxuryEffects";
 const infoCards = [
   {
     icon: IconMapPin,
-    title: "Visit an Atelier",
-    lines: ["Sydney • Melbourne • Perth", "By private appointment only"],
+    title: "Visit Our Showroom",
+    lines: ["Anand, Gujarat, India", "Walk-ins welcome during business hours"],
   },
   {
     icon: IconPhone,
     title: "Call Us",
-    lines: ["+61 2 8000 4321", "Mon–Fri, 9am–6pm AEST"],
+    lines: ["+91", "Mon-Sat, Business Hours"],
   },
   {
     icon: IconMail,
     title: "Email Us",
-    lines: ["concierge@eglanto.example", "Replies within 1 business day"],
+    lines: ["concierge@grjewellers.example", "We aim to respond within 1 business day."],
   },
   {
     icon: IconClock,
-    title: "Consultation Hours",
-    lines: ["By appointment, 7 days", "Evening slots available"],
+    title: "Showroom  Hours",
+    lines: ["Please contact us to confirm today's opening hours."],
   },
 ];
 

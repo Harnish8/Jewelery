@@ -5,26 +5,26 @@ import { IconArrowLeft, IconArrowRight } from "@/components/Icons";
 const newArrivals = [
   {
     id: 101,
-    name: "Ring",
-    spec: "Australian 18k Gold",
+    name: "Diamond Ring",
+    spec: "Certified Diamond",
     img: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=600&q=80",
   },
   {
     id: 102,
-    name: "Bracelet",
-    spec: "Sydney Atelier Edition",
+    name: "Diamond Bracelet",
+    spec: "Luxury Collection",
     img: "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=600&q=80",
   },
   {
     id: 103,
-    name: "Earring",
-    spec: "Melbourne Gold House",
+    name: "Gold Earrings",
+    spec: "Handcrafted Design",
     img: "/image/6.jpg",
   },
   {
     id: 104,
-    name: "Necklace",
-    spec: "Botanica Collection • WA",
+    name: "Diamond Pendant",
+    spec: "Custom Available",
     img: "https://images.unsplash.com/photo-1589674781759-c21c37956a44?auto=format&fit=crop&w=600&q=80",
   },
 ];
@@ -40,10 +40,10 @@ export default function NewArrivals() {
         <RevealOnScroll mode="fade-in-up" className="flex items-end justify-between pb-10 border-b border-white/15">
           <div>
             <span className="text-xs uppercase tracking-[0.25em] text-amber-200 font-semibold block mb-2">
-              Curated Collection
+              LATEST CREATIONS
             </span>
             <h2 className="text-4xl sm:text-6xl font-serif font-light">
-              <TextSplitReveal text="New Arrival" type="words" />
+              <TextSplitReveal text="Featured Jewellery" type="words" />
             </h2>
           </div>
           <div className="flex items-center gap-3">

@@ -16,12 +16,12 @@ export default function Hero() {
         <div className="lg:col-span-7 pr-0 lg:pr-8">
           <RevealOnScroll mode="fade-in-up" delay={100}>
             <span className="text-xs font-extrabold uppercase tracking-[0.25em] text-[#1B4341] bg-[#EADFC9]/60 px-4 py-2 rounded-full inline-block mb-6 shadow-sm">
-              Ethical Luxury Collection 2026
+              Luxury Jewellery Collection
             </span>
           </RevealOnScroll>
 
-          <h1 className="text-5xl sm:text-7xl md:text-8xl font-serif font-light text-[#1B4341] leading-[1.1] tracking-tight">
-            <TextSplitReveal text="Desire Meets" type="words" delay={200} /> <br />
+          <h1 className="text-5xl sm:text-7xl md:text-5xl font-serif font-light text-[#1B4341] leading-[1.1] tracking-tight">
+            <TextSplitReveal text="Custom & Personalised" type="words" delay={200} /> <br />
             <span className="inline-flex items-center align-middle mx-1 px-3.5 py-1 rounded-full bg-white border border-[#EADFC9] shadow-md transform -rotate-3 hover:rotate-0 transition-transform">
               <img
                 src="https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=160&q=80"
@@ -29,12 +29,12 @@ export default function Hero() {
                 className="w-16 sm:w-20 h-9 sm:h-11 object-cover rounded-full"
               />
             </span>{" "}
-            <TextSplitReveal text="New Style" type="words" delay={350} />
+            <TextSplitReveal text="Heritage Jewellery" type="words" delay={350} />
           </h1>
 
           <RevealOnScroll mode="fade-in-up" delay={450}>
             <p className="mt-8 text-base sm:text-lg text-[#666] font-light max-w-lg leading-relaxed">
-              A celebration of modern jewelry crafted with sustainable gold and natural ethically sourced stones to illuminate your unique everyday style.
+              Discover timeless diamond, gold and silver jewellery at GR Jewellers, a trusted jewellery store in Anand, handcrafted by a GIA Certified Jeweller.
             </p>
           </RevealOnScroll>
 
@@ -43,7 +43,7 @@ export default function Hero() {
               href="#products"
               className="bg-[#1B4341] text-white px-10 py-4.5 rounded-full text-xs font-bold tracking-widest uppercase hover:bg-[#122D2B] transition-all shadow-lg flex items-center gap-3 transform hover:-translate-y-0.5"
             >
-              <span>Explore Creations</span>
+              <span>Explore Collection</span>
               <IconArrowRight className="w-4 h-4" />
             </Link>
 
@@ -94,7 +94,7 @@ export default function Hero() {
         <div className="fixed inset-0 z-50 bg-black/95 backdrop-blur-lg flex items-center justify-center p-4 animate-scale-up">
           <div className="relative max-w-5xl w-full bg-[#1A1A1A] rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
             <div className="p-4 bg-[#262626] flex items-center justify-between border-b border-white/10 text-white font-sans">
-              <span className="font-serif text-lg">✿ Eglanto Campaign Video (`jewel2.mp4`)</span>
+              <span className="font-serif text-lg">✿ G R Jewellers Campaign Video (`jewel2.mp4`)</span>
               <button
                 onClick={() => setShowVideoModal(false)}
                 className="px-5 py-2 rounded-full bg-white/20 hover:bg-white text-white hover:text-black text-xs font-bold transition-all"

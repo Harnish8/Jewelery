@@ -5,9 +5,9 @@ import Link from "next/link";
 import { RevealOnScroll, TextSplitReveal } from "@/components/LuxuryEffects";
 
 const serviceHighlights = [
-  { label: "Bespoke Rings", icon: "💎" },
-  { label: "Wedding Specialist", icon: "💍" },
-  { label: "Gold & Diamond", icon: "✦" },
+  { label: "Bespoke Ring Design", icon: "💎" },
+  { label: "Wedding Jewellery", icon: "💍" },
+  { label: "Gold, Diamond & Gemstone Jewellery", icon: "✦" },
 ];
 
 export default function ServicesHero() {
@@ -53,20 +53,18 @@ export default function ServicesHero() {
             </RevealOnScroll>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-light text-white leading-[1.08] tracking-tight">
-              <TextSplitReveal text="Crafting" type="words" delay={200} />
+              <TextSplitReveal text="Bespoke Jewellery," type="words" delay={200} />
               <br />
-              <TextSplitReveal text="Timeless" type="words" delay={350} />
+              <TextSplitReveal text="Crafted for" type="words" delay={350} />
               <br />
               <span className="text-[#EADFC9]">
-                <TextSplitReveal text="Elegance" type="words" delay={500} />
+                <TextSplitReveal text="Every Story" type="words" delay={500} />
               </span>
             </h1>
 
             <RevealOnScroll mode="fade-in-up" delay={700}>
               <p className="mt-8 text-sm sm:text-base text-white/60 font-light max-w-md leading-relaxed">
-                From bespoke engagement rings to heirloom wedding sets, we bring
-                your vision to life with ethically sourced gold, silver, and
-                diamonds — handcrafted with decades of expertise.
+                At GR Jewellers, we specialise in bespoke jewellery, custom & personalised jewellery, and elegant wedding jewellery designed to celebrate life&apos;s most meaningful moments. From custom engagement rings and couple wedding rings to handcrafted gold, diamond, gemstone, and colour stone jewellery, every creation is thoughtfully designed by our GIA Certified Jewellery Designer with over a century of family craftsmanship behind it.
               </p>
             </RevealOnScroll>
 
@@ -76,13 +74,13 @@ export default function ServicesHero() {
                   href="/contact"
                   className="bg-white text-[#1B4341] px-8 py-3.5 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-[#EADFC9] transition-all shadow-lg transform hover:-translate-y-0.5"
                 >
-                  Get Started
+                  Book Consultation
                 </a>
                 <a
                   href="#our-services"
                   className="border border-white/30 text-white px-8 py-3.5 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-white/10 transition-all"
                 >
-                  Explore Services
+                  Explore Collections
                 </a>
               </div>
             </RevealOnScroll>

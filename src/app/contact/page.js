@@ -4,8 +4,8 @@ import ContactSplit from "@/components/sections/contact/ContactSplit";
 import FaqAccordion from "@/components/sections/contact/FaqAccordion";
 
 export const metadata = {
-  title: "Contact Us | Eglanto",
-  description: "Book a private consultation or reach an Eglanto advisor in Sydney, Melbourne, or Perth.",
+  title: "Contact Us | G R Jewellers",
+  description: "Book a private consultation or reach an G R Jewellers advisor in Sydney, Melbourne, or Perth.",
 };
 
 export default function ContactPage() {
