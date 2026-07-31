@@ -94,3 +94,25 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #a0a0a0;
 }
+
+
+
+.ticker {
+  display: inline-flex;
+  width: max-content;
+  animation: ticker 25s linear infinite;
+}
+
+@keyframes ticker {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.ticker:hover {
+  animation-play-state: paused;
+}

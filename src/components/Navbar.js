@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { IconSearch } from "@/components/Icons";
+import GoldTicker from "@/components/GoldTicker";
 import Image from "next/image";
 
 export default function Navbar() {
@@ -18,18 +19,12 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Close mobile menu on route change
-  // useEffect(() => {
-  //   setMobileOpen(false);
-  // }, [pathname]);
-  // ADD near your other useState calls
-const [prevPathname, setPrevPathname] = useState(pathname);
-
-// Reset mobile menu when route changes — done during render, not in an effect
-if (pathname !== prevPathname) {
-  setPrevPathname(pathname);
-  if (mobileOpen) setMobileOpen(false);
-}
+  // Reset mobile menu when route changes — done during render, not in an effect
+  const [prevPathname, setPrevPathname] = useState(pathname);
+  if (pathname !== prevPathname) {
+    setPrevPathname(pathname);
+    if (mobileOpen) setMobileOpen(false);
+  }
 
   const links = [
     { href: "/", label: "Home" },
@@ -74,8 +69,29 @@ if (pathname !== prevPathname) {
           />
         </button>
 
+        {/* Logo + Brand (moved before nav links) */}
+        <div className="flex items-center gap-2">
+          <Link
+            href="/"
+            className="flex items-center gap-2 sm:gap-3 text-2xl sm:text-2xl lg:text-3xl font-serif font-bold tracking-wider text-[#1B4341] hover:opacity-85 transition-opacity"
+          >
+            <span className="relative h-10 w-[62px] sm:h-12 sm:w-[74px] lg:h-14 lg:w-[86px] shrink-0">
+              <Image
+                src="/image/logo.png"
+                alt="G R Jewellers"
+                fill
+                quality={100}
+                sizes="(max-width: 640px) 124px, (max-width: 1024px) 148px, 172px"
+                className="object-contain image-render-crisp"
+                priority
+              />
+            </span>
+            <span>G R Jewellers</span>
+          </Link>
+        </div>
+
         {/* Desktop Links */}
-        <nav className="hidden md:flex items-center gap-8 lg:gap-10 text-[10px] lg:text-xs font-bold tracking-[0.18em] uppercase text-[#444]">
+        <nav className="hidden md:flex items-center gap-8 lg:gap-10 text-[12px] lg:text-sm font-bold tracking-[0.18em] uppercase text-[#444]">
           {links.map((link) => (
             <Link
               key={link.href}
@@ -90,36 +106,6 @@ if (pathname !== prevPathname) {
             </Link>
           ))}
         </nav>
-
-        {/* Center Brand Logo */}
-        <div className="flex items-center gap-2">
-          {/* <Link
-            href="/image/logo.png"
-            className="flex items-center gap-2 sm:gap-3 text-2xl sm:text-3xl lg:text-4xl font-serif font-bold tracking-wider text-[#1B4341] hover:opacity-85 transition-opacity"
-          >
-            <span className="w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 rounded-full bg-[#1B4341] text-[#FBF8F3] flex items-center justify-center text-sm sm:text-base lg:text-lg font-serif shadow-inner">
-              <img src="/image/logo.png" alt="Logo" className="w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 rounded-full" />
-            </span>
-            <span>G R Jewellers</span>
-          </Link> */}
-          
-<Link
-  href="/"
-  className="flex items-center gap-2 sm:gap-3 text-2xl sm:text-3xl lg:text-4xl font-serif font-bold tracking-wider text-[#1B4341] hover:opacity-85 transition-opacity"
->
-  <span className="relative w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 shrink-0">
-    <Image
-      src="/image/logo.png"
-      alt="G R Jewellers"
-      fill
-      sizes="(max-width: 640px) 40px, (max-width: 1024px) 48px, 56px"
-      className="object-contain"
-      priority
-    />
-  </span>
-  <span>G R Jewellers</span>
-</Link>
-        </div>
 
         {/* Right Controls */}
         <div className="flex items-center gap-3 sm:gap-5">
@@ -139,6 +125,8 @@ if (pathname !== prevPathname) {
           </a>
         </div>
       </header>
+
+      <GoldTicker />
 
       {/* Mobile Menu Overlay */}
       <div
@@ -161,19 +149,15 @@ if (pathname !== prevPathname) {
             className="flex items-center gap-2 text-xl font-serif font-bold text-[#1B4341]"
             onClick={() => setMobileOpen(false)}
           >
-            {/* <span className="w-7 h-7 rounded-full bg-[#1B4341] text-[#FBF8F3] flex items-center justify-center text-xs font-serif">
-              ✿
-            </span> */}
-
-<span className="relative w-8 h-8 shrink-0">
-  <Image
-    src="/image/logo.png"
-    alt="G R Jewellers"
-    fill
-    sizes="32px"
-    className="object-contain"
-  />
-</span>
+            <span className="relative w-9 h-9 shrink-0">
+              <Image
+                src="/image/logo.png"
+                alt="G R Jewellers"
+                fill
+                sizes="36px"
+                className="object-contain"
+              />
+            </span>
             <span>G R Jewellers</span>
           </Link>
           <button
