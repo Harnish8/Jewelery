@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { IconInstagram, IconFacebook, IconTwitter } from "@/components/Icons";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -7,7 +8,17 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 pb-16 border-b border-white/15 text-sm font-light">
         <div>
           <Link href="/" className="flex items-center gap-2 text-3xl font-serif font-bold text-white mb-4">
-            <span className="w-8 h-8 rounded-full bg-white text-[#1B4341] flex items-center justify-center text-sm font-serif">✿</span>
+            <span className="relative h-10 w-[62px] sm:h-12 sm:w-[74px] lg:h-14 lg:w-[86px] shrink-0">
+                          <Image
+                            src="/image/logo.png"
+                            alt="G R Jewellers"
+                            fill
+                            quality={100}
+                            sizes="(max-width: 640px) 124px, (max-width: 1024px) 148px, 172px"
+                            className="object-contain image-render-crisp"
+                            priority
+                          />
+                        </span>
             <span>G R Jewellers</span>
           </Link>
           <p className="text-xs text-zinc-300 leading-relaxed max-w-xs">

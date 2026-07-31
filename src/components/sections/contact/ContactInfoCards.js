@@ -5,22 +5,22 @@ const infoCards = [
   {
     icon: IconMapPin,
     title: "Visit Our Showroom",
-    lines: ["Anand, Gujarat, India", "Walk-ins welcome during business hours"],
+    lines: ["Near Tower, Chokshi Bazar, Mathiya Chora, Anand - 388001, Gujarat, India", "Walk-ins welcome during business hours"],
   },
   {
     icon: IconPhone,
     title: "Call Us",
-    lines: ["+91", "Mon-Sat, Business Hours"],
+    lines: ["+91 9825238877", "+91 9723295992"],
   },
   {
     icon: IconMail,
     title: "Email Us",
-    lines: ["concierge@grjewellers.example", "We aim to respond within 1 business day."],
+    lines: ["grjewellershusmukhbhaisoni@gmail.com", "We aim to respond within 1 business day."],
   },
   {
     icon: IconClock,
     title: "Showroom  Hours",
-    lines: ["Please contact us to confirm today's opening hours."],
+    lines: ["Monday to Saturday 10 am : 8 pm"],
   },
 ];
 

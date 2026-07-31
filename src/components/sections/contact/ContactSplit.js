@@ -4,9 +4,7 @@ import { RevealOnScroll, ParallaxBox } from "@/components/LuxuryEffects";
 import ContactPageForm from "@/components/sections/contact/ContactPageForm";
 
 const ateliers = [
-  { city: "Sydney", address: "12 Macquarie Lane, Sydney NSW 2000" },
-  { city: "Melbourne", address: "88 Collins Street, Melbourne VIC 3000" },
-  { city: "Perth", address: "5 Hay Street, Perth WA 6000" },
+  { city: "Anand, Gujarat", address: "Near Tower, Chokshi Bajar, Mathiya Chora, 388001" }
 ];
 
 export default function ContactSplit() {

@@ -7,7 +7,7 @@ const initialState = {
   name: "",
   email: "",
   phone: "",
-  atelier: "Sydney",
+  atelier: "Anand",
   appointment: false,
   message: "",
 };
