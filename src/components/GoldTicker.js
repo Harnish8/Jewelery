@@ -52,17 +52,17 @@ export default function GoldTicker() {
   }, []);
 
   return (
-    <div className="relative overflow-hidden bg-[#1B4341] border-b border-[#C9A646] h-10 flex items-center">
+    <div className="relative overflow-hidden bg-white border-b border-[#C9A646] h-10 flex items-center">
       <div className="absolute left-0 top-0 bottom-0 z-10 flex items-center bg-[#C9A646] px-4 text-[#1B4341] font-bold text-xs uppercase tracking-wider">
         LIVE RATE
       </div>
 
       <div className="overflow-hidden w-full ml-[95px]">
         <div className="ticker whitespace-nowrap">
-          <span className="text-white text-sm font-medium px-8">
+          <span className="text-[#1B4341] text-sm font-medium px-8">
             {text}
           </span>
-          <span className="text-white text-sm font-medium px-8">
+          <span className="text-[#1B4341] text-sm font-medium px-8">
             {text}
           </span>
         </div>

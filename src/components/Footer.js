@@ -22,12 +22,11 @@ export default function Footer() {
             <span>G R Jewellers</span>
           </Link>
           <p className="text-xs text-zinc-300 leading-relaxed max-w-xs">
-            Sustainable gold & ethical gemstones crafted for modern elegance and heirloom preservation since 1970.
+            Discover timeless diamond, gold and silver jewellery at GR Jewellers, a trusted jewellery store in Anand, handcrafted by a GIA Certified Jeweller.
           </p>
           <div className="flex items-center gap-4 mt-6 text-zinc-300">
-            <IconInstagram className="w-4 h-4 cursor-pointer hover:text-white" />
-            <IconFacebook className="w-4 h-4 cursor-pointer hover:text-white" />
-            <IconTwitter className="w-4 h-4 cursor-pointer hover:text-white" />
+            <Link href="https://www.instagram.com/g.r.jewellerss/" ><IconInstagram className="w-4 h-4 cursor-pointer hover:text-white" /></Link>
+            <Link href="https://www.facebook.com/GRJewellers/" ><IconFacebook className="w-4 h-4 cursor-pointer hover:text-white" /></Link>
           </div>
         </div>
 
