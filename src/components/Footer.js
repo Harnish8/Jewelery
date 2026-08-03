@@ -77,8 +77,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-400">
         <p>Copyright © {new Date().getFullYear()} G R Jewellers. All rights reserved.</p>
         <div className="flex gap-6 mt-4 sm:mt-0">
-          <a href="#privacy" className="hover:text-white">Privacy Policy</a>
-          <a href="#terms" className="hover:text-white">Terms of Use</a>
+          <a href="/privacy-policy" className="hover:text-white">Privacy Policy</a>
+          <a href="/termsconditions" className="hover:text-white">Terms & Conditions</a>
         </div>
       </div>
     </footer>
