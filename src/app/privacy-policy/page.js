@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import { RevealOnScroll, TextSplitReveal } from "@/components/LuxuryEffects";
+import { RevealOnScroll, TextSplitReveal } from "../../components/LuxuryEffects";
 
 const sections = [
   {
