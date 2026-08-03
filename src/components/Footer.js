@@ -59,7 +59,7 @@ export default function Footer() {
             Stay Connected
           </h4>
           <p className="text-xs text-zinc-300 mb-4">
-            Subscribe to receive exclusive access to new launches and private sales.
+            Contact us for more details.
           </p>
           <div className="flex border border-white/30 rounded-full bg-black/30 overflow-hidden p-1">
             <input

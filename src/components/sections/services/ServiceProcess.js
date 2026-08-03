@@ -115,7 +115,7 @@ export default function ServiceProcess() {
                   Book a Consultation
                 </a>
                 <a
-                  href="tel:+610000000000"
+                  href="tel:+919825238877"
                   className="border border-white/30 text-white px-8 py-3.5 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-white/10 transition-all"
                 >
                   Call Us Today

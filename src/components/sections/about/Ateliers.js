@@ -55,9 +55,9 @@ import { IconMapPin } from "@/components/Icons";
 import { RevealOnScroll, TextSplitReveal, ParallaxBox } from "@/components/LuxuryEffects";
 
 const ateliers = [
-  { city: "Custom Jewellery", note: "Bespoke Jewellery", image: "https://images.unsplash.com/photo-1620656798579-1984d9e87dfa?auto=format&fit=crop&w=800&q=80" },
+  { city: "Custom Jewellery", note: "Bespoke Jewellery", image: "/image/tools.jpg" },
   { city: "Bridal Jewellery", note: "Wedding Collection", image: "/image/bridal.jpg" },
-  { city: "Gold, Diamond & Gemstone Jewellery", note: "Certified Gemstones", image: "/image/tools.jpg" },
+  { city: "Gold, Diamond & Gemstone Jewellery", note: "Certified Gemstones", image: "/image/diamond.jpg" },
 ];
 
 export default function Ateliers() {

@@ -47,7 +47,7 @@ export default function JewelleryCollection() {
               Elegant <br /> Necklaces
             </h3>
             <button className="mt-4 px-6 py-2.5 rounded-full bg-[#1B4341] text-white text-xs font-bold uppercase tracking-wider hover:bg-[#122D2B] transition-all flex items-center gap-2 shadow-md">
-              <span>Explore Collection</span>
+              <span>Contact Us</span>
               <IconArrowRight className="w-3.5 h-3.5" />
             </button>
           </Card3DTilt>

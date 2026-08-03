@@ -437,7 +437,7 @@ export default function Navbar() {
             onClick={() => setMobileOpen(false)}
             className="flex items-center justify-center gap-2 w-full bg-[#1B4341] text-white px-5 py-3.5 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-[#122D2B] transition-all shadow-md"
           >
-            Book Consultation
+            Contact us
           </a>
         </div>
 
