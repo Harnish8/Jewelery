@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import { RevealOnScroll, TextSplitReveal } from "../../components/LuxuryEffects";
+import { RevealOnScroll, TextSplitReveal } from "@/components/LuxuryEffects";
 
 const sections = [
   {
@@ -257,7 +257,7 @@ export default function PrivacyPolicy() {
                   <h2 className="text-2xl sm:text-3xl font-serif font-light text-[#1B4341] mb-4">
                     {s.title}
                   </h2>
-                  <div className="policy-copy text-sm sm:text-base text-[#666] font-light leading-relaxed space-y-3">
+                  <div className="policy-copy text-sm sm:text-base text-[#666] font-light leading-relaxed space-y-3 [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:space-y-1.5 [&_ul]:marker:text-[#1B4341]">
                     {s.body}
                   </div>
                 </div>
@@ -266,29 +266,6 @@ export default function PrivacyPolicy() {
           </div>
         </div>
       </div>
-
-      <style jsx global>{`
-        .policy-copy ul {
-          list-style: none;
-          padding: 0;
-          margin: 0.5rem 0;
-        }
-        .policy-copy li {
-          position: relative;
-          padding-left: 1.25rem;
-          margin-bottom: 0.4rem;
-        }
-        .policy-copy li::before {
-          content: "";
-          position: absolute;
-          left: 0;
-          top: 0.65em;
-          width: 5px;
-          height: 5px;
-          border-radius: 9999px;
-          background-color: #1b4341;
-        }
-      `}</style>
     </section>
   );
 }
