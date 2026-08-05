@@ -29,7 +29,7 @@ export default function ServicesHero() {
         <div className="absolute bottom-48 right-[15%] w-5 h-5 border border-white/10 rotate-45" />
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-6 lg:px-16 py-20 sm:py-24 w-full">
+      <div className="relative max-w-7xl mx-auto px-6 lg:px-16 pt-10 sm:pt-5 pb-10 sm:pb-14 w-full">
         <RevealOnScroll mode="fade-in-up">
           <nav className="flex items-center gap-2 text-[11px] uppercase tracking-[0.25em] text-white/50 mb-12 sm:mb-16">
             <Link href="/" className="hover:text-white/80 transition-colors">
@@ -121,7 +121,7 @@ export default function ServicesHero() {
       </div>
 
       {/* Bottom gradient fade */}
-      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#FBF8F3] to-transparent" />
+      <div className="absolute bottom-0 left-0 w-full h-5 bg-gradient-to-t from-[#fbf8f38f] to-transparent" />
     </section>
   );
 }

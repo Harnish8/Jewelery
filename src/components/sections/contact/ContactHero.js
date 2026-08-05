@@ -17,9 +17,9 @@ export default function ContactHero() {
         </RevealOnScroll>
 
         <h1 className="text-4xl sm:text-6xl md:text-7xl font-serif font-light text-[#1B4341] leading-[1.1]">
-          <TextSplitReveal text="Let's Create" type="words" delay={150} />
+          <TextSplitReveal text="Let's Create Something" type="words" delay={150} />
           <br />
-          <TextSplitReveal text="Something Beautiful Together" type="words" delay={300} />
+          <TextSplitReveal text="Beautiful Together" type="words" delay={300} />
         </h1>
 
         <RevealOnScroll mode="fade-in-up" delay={550}>
