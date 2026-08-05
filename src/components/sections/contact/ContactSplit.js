@@ -66,7 +66,7 @@ export default function ContactSplit() {
           {/* <ContactPageForm /> */}
           <iframe
             src="https://api.leadconnectorhq.com/widget/form/xxxx"
-            style="width:100%;height:100%;border:none;border-radius:0px"
+            style={{ width: "100%", height: "100%", border: "none", borderRadius: 0 }}
             id="inline-xxxx"
             data-layout="{'id':'INLINE'}"
             data-trigger-type="alwaysShow"
