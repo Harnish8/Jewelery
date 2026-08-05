@@ -226,7 +226,6 @@
 //   );
 // }
 
-
 "use client";
 
 import { useState, useEffect } from "react";
@@ -270,7 +269,9 @@ export default function Navbar() {
     <>
       <header
         className={`sticky top-0 z-50 w-full bg-[#1B4341]/98 backdrop-blur-md border-b border-white/10 px-4 sm:px-6 lg:px-16 flex items-center justify-between transition-all ${
-          scrolled ? "py-3 shadow-md min-h-[72px]" : "py-4 sm:py-5 shadow-sm min-h-[80px] sm:min-h-[88px]"
+          scrolled
+            ? "py-3 shadow-md min-h-[72px]"
+            : "py-4 sm:py-5 shadow-sm min-h-[80px] sm:min-h-[88px]"
         }`}
       >
         {/* Mobile hamburger */}
@@ -314,7 +315,10 @@ export default function Navbar() {
                 priority
               />
             </span>
-            <span>G R Jewellers</span>
+            {/* <span>G R Jewellers</span> */}
+            <span className="font-trajan text-gold-gradient font-bold tracking-widest">
+  G R Jewellers
+</span>
           </Link>
         </div>
 
@@ -359,7 +363,9 @@ export default function Navbar() {
       {/* Mobile Menu Overlay */}
       <div
         className={`fixed inset-0 z-40 bg-black/40 backdrop-blur-sm transition-opacity duration-300 md:hidden ${
-          mobileOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+          mobileOpen
+            ? "opacity-100 pointer-events-auto"
+            : "opacity-0 pointer-events-none"
         }`}
         onClick={() => setMobileOpen(false)}
       />
@@ -386,7 +392,10 @@ export default function Navbar() {
                 className="object-contain"
               />
             </span>
-            <span>G R Jewellers</span>
+            {/* <span>G R Jewellers</span> */}
+            <span className="font-trajan text-gold-gradient font-bold tracking-widest">
+              G R Jewellers
+            </span>
           </Link>
           <button
             onClick={() => setMobileOpen(false)}
@@ -422,9 +431,11 @@ export default function Navbar() {
               }`}
               style={{ animationDelay: `${idx * 50}ms` }}
             >
-              <span className={`w-1.5 h-1.5 rounded-full ${
-                isActive(link.href) ? "bg-white" : "bg-[#1B4341]/30"
-              }`} />
+              <span
+                className={`w-1.5 h-1.5 rounded-full ${
+                  isActive(link.href) ? "bg-white" : "bg-[#1B4341]/30"
+                }`}
+              />
               {link.label}
             </Link>
           ))}
@@ -453,6 +464,3 @@ export default function Navbar() {
     </>
   );
 }
-
-
-
