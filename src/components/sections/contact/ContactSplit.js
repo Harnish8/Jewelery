@@ -65,9 +65,9 @@ export default function ContactSplit() {
         >
           {/* <ContactPageForm /> */}
           <iframe
-            src="https://api.leadconnectorhq.com/widget/form/xxxx"
+            src="https://api.leadconnectorhq.com/widget/form/uJZQZ3GHGTXuMCFqDYdI"
             style={{ width: "100%", height: "100%", border: "none", borderRadius: 0 }}
-            id="inline-xxxx"
+            id="inline-uJZQZ3GHGTXuMCFqDYdI"
             data-layout="{'id':'INLINE'}"
             data-trigger-type="alwaysShow"
             data-trigger-value=""
@@ -77,8 +77,8 @@ export default function ContactSplit() {
             data-deactivation-value=""
             data-form-name="G R Jewellers"
             data-height="undefined"
-            data-layout-iframe-id="inline-xxxx"
-            data-form-id="xxxx"
+            data-layout-iframe-id="inline-uJZQZ3GHGTXuMCFqDYdI"
+            data-form-id="uJZQZ3GHGTXuMCFqDYdI"
             title="G R Jewellers"
           ></iframe>
           <Script src="https://link.msgsndr.com/js/form_embed.js" strategy="lazyOnload" />
