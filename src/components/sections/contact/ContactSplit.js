@@ -2,17 +2,27 @@
 import { IconMapPin } from "@/components/Icons";
 import { RevealOnScroll, ParallaxBox } from "@/components/LuxuryEffects";
 import ContactPageForm from "@/components/sections/contact/ContactPageForm";
+import Script from "next/script";
 
 const ateliers = [
-  { city: "Anand, Gujarat", address: "Near Tower, Chokshi Bajar, Mathiya Chora, 388001" }
+  {
+    city: "Anand, Gujarat",
+    address: "Near Tower, Chokshi Bajar, Mathiya Chora, 388001",
+  },
 ];
+
+
 
 export default function ContactSplit() {
   return (
+    
     <section id="contact-form" className="py-8 px-6 lg:px-16 max-w-6xl mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-12 rounded-[2rem] overflow-hidden border border-[#EADFC9] shadow-xl">
         {/* Left: image + addresses */}
-        <RevealOnScroll mode="fade-in-up" className="lg:col-span-5 relative bg-[#1B4341] text-white min-h-[320px] lg:min-h-full">
+        <RevealOnScroll
+          mode="fade-in-up"
+          className="lg:col-span-5 relative bg-[#1B4341] text-white min-h-[320px] lg:min-h-full"
+        >
           <ParallaxBox speed={0.05} className="absolute inset-0 w-full h-full">
             <img
               src="https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=900&q=80"
@@ -34,8 +44,12 @@ export default function ContactSplit() {
                 <div key={a.city} className="flex items-start gap-3">
                   <IconMapPin className="w-4 h-4 mt-1 text-amber-200 shrink-0" />
                   <div>
-                    <h4 className="text-sm font-bold uppercase tracking-wider">{a.city}</h4>
-                    <p className="text-xs text-zinc-300 font-light mt-0.5">{a.address}</p>
+                    <h4 className="text-sm font-bold uppercase tracking-wider">
+                      {a.city}
+                    </h4>
+                    <p className="text-xs text-zinc-300 font-light mt-0.5">
+                      {a.address}
+                    </p>
                   </div>
                 </div>
               ))}
@@ -44,8 +58,30 @@ export default function ContactSplit() {
         </RevealOnScroll>
 
         {/* Right: form */}
-        <RevealOnScroll mode="fade-in-up" delay={150} className="lg:col-span-7 bg-white p-8 sm:p-12">
-          <ContactPageForm />
+        <RevealOnScroll
+          mode="fade-in-up"
+          delay={150}
+          className="lg:col-span-7 bg-white p-8 sm:p-12"
+        >
+          {/* <ContactPageForm /> */}
+          <iframe
+            src="https://api.leadconnectorhq.com/widget/form/xxxx"
+            style="width:100%;height:100%;border:none;border-radius:0px"
+            id="inline-xxxx"
+            data-layout="{'id':'INLINE'}"
+            data-trigger-type="alwaysShow"
+            data-trigger-value=""
+            data-activation-type="alwaysActivated"
+            data-activation-value=""
+            data-deactivation-type="neverDeactivate"
+            data-deactivation-value=""
+            data-form-name="G R Jewellers"
+            data-height="undefined"
+            data-layout-iframe-id="inline-xxxx"
+            data-form-id="xxxx"
+            title="G R Jewellers"
+          ></iframe>
+          <Script src="https://link.msgsndr.com/js/form_embed.js" strategy="lazyOnload" />
         </RevealOnScroll>
       </div>
     </section>
