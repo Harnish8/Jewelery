@@ -13,7 +13,7 @@ const newArrivals = [
     id: 102,
     name: "Diamond Bracelet",
     spec: "Luxury Collection",
-    img: "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=600&q=80",
+    img: "/image/gr/600.398 (2).png",
   },
   {
     id: 103,

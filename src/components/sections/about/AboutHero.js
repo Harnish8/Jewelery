@@ -139,7 +139,7 @@ export default function AboutHero() {
             <ParallaxBox speed={0.1} scaleOnScroll className="w-4/5 mx-auto lg:mx-0">
               <Card3DTilt className="aspect-[4/5] rounded-t-full rounded-b-3xl overflow-hidden shadow-2xl border-4 border-white bg-[#EADFC9]">
                 <img
-                  src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=900&q=80"
+                  src="/image/gr/800.1200 (2).png"
                   alt="GR Jewellers craftsmanship"
                   className="w-full h-full object-cover"
                 />
@@ -152,7 +152,7 @@ export default function AboutHero() {
               className="absolute bottom-2 -right-2 sm:right-4 w-2/5 aspect-square rounded-2xl overflow-hidden shadow-xl border-4 border-white bg-[#1B4341]"
             >
               <img
-                src="https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=500&q=80"
+                src="/image/gr/800.1200 (2).png"
                 alt="Recycled gold ring detail"
                 className="w-full h-full object-cover"
               />

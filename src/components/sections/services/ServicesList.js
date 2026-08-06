@@ -36,7 +36,7 @@ const services = [
       "Expert guidance from design to final creation",
     ],
     image:
-      "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80",
+      "/image/gr/21.png",
     accent: "from-[#6B5B3E] to-[#8B7355]",
   },
   {
@@ -53,7 +53,7 @@ const services = [
       "Elegant jewellery for every occasion",
     ],
     image:
-      "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=800&q=80",
+      "/image/gr/12.png",
     accent: "from-[#3D3229] to-[#5C4E3E]",
   },
 ];

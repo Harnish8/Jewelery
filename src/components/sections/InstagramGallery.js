@@ -8,7 +8,7 @@ export default function InstagramGallery() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
         <RevealOnScroll mode="fade-in-up" delay={0}>
           <Card3DTilt className="aspect-square rounded-2xl overflow-hidden shadow-md group cursor-pointer relative bg-black">
-            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=600&q=80" alt="Insta 1" className="w-full h-full object-cover group-hover:scale-110 group-hover:opacity-80 transition-all duration-500" />
+            <img src="/image/gr/20.png" alt="Insta 1" className="w-full h-full object-cover group-hover:scale-110 group-hover:opacity-80 transition-all duration-500" />
             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white">
               <IconInstagram className="w-8 h-8" />
             </div>
@@ -17,7 +17,7 @@ export default function InstagramGallery() {
 
         <RevealOnScroll mode="fade-in-up" delay={120}>
           <Card3DTilt className="aspect-square rounded-2xl overflow-hidden shadow-md group cursor-pointer relative bg-black">
-            <img src="https://images.unsplash.com/photo-1589674781759-c21c37956a44?auto=format&fit=crop&w=600&q=80" alt="Insta 2" className="w-full h-full object-cover group-hover:scale-110 group-hover:opacity-80 transition-all duration-500" />
+            <img src="/image/gr/22.png" alt="Insta 2" className="w-full h-full object-cover group-hover:scale-110 group-hover:opacity-80 transition-all duration-500" />
             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white">
               <IconInstagram className="w-8 h-8" />
             </div>
@@ -26,7 +26,7 @@ export default function InstagramGallery() {
 
         <RevealOnScroll mode="fade-in-up" delay={240}>
           <Card3DTilt className="aspect-square rounded-2xl overflow-hidden shadow-md group cursor-pointer relative bg-black">
-            <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=600&q=80" alt="Insta 3" className="w-full h-full object-cover group-hover:scale-110 group-hover:opacity-80 transition-all duration-500" />
+            <img src="/image/gr/600.400.png" alt="Insta 3" className="w-full h-full object-cover group-hover:scale-110 group-hover:opacity-80 transition-all duration-500" />
             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white">
               <IconInstagram className="w-8 h-8" />
             </div>
