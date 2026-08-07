@@ -8,7 +8,7 @@ import AboutCta from "@/components/sections/about/AboutCta";
 
 export const metadata = {
   title: "About Us | G R Jewellers",
-  description: "Five decades of ethical, sustainable jewelry craftsmanship — the story, values, and ateliers behind G R Jewellers.",
+  description: "Five decades of ethical, sustainable Jewellery craftsmanship — the story, values, and ateliers behind G R Jewellers.",
 };
 
 export default function AboutPage() {

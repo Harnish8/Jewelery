@@ -1,6 +1,6 @@
 # G R Jewellers — G R Jewellers
 
-Ethical luxury jewelry marketing site built with Next.js (App Router), React, and Tailwind CSS. Plain JavaScript — no TypeScript.
+Ethical luxury Jewellery marketing site built with Next.js (App Router), React, and Tailwind CSS. Plain JavaScript — no TypeScript.
 
 ## Getting Started
 

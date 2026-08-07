@@ -12,7 +12,7 @@ export default function Heritage() {
           <div className="w-4/5 aspect-[4/5] rounded-t-full rounded-b-3xl overflow-hidden shadow-2xl bg-[#EADFC9] border-4 border-white mx-auto lg:mx-0">
             <img
               src="/image/gr/26.png"
-              alt="Tradition Cared For Since 1970"
+              alt="Crafting Timeless Jewellery Since 2003"
               className="w-full h-full object-cover"
             />
           </div>

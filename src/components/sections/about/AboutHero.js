@@ -6,7 +6,7 @@
 // const stats = [
 //   { icon: IconLeaf, value: "100%", label: "Recycled Gold" },
 //   { icon: IconGem, value: "3", label: "Ateliers" },
-//   { icon: IconAward, value: "1970", label: "Founded" },
+//   { icon: IconAward, value: "2003", label: "Founded" },
 // ];
 
 // export default function AboutHero() {
@@ -53,7 +53,7 @@
 //             <div className="hidden sm:flex absolute -top-6 -left-2 w-24 h-24 items-center justify-center">
 //               <div className="absolute inset-0 border border-[#1B4341]/30 rounded-full animate-spin-slow flex items-center justify-center bg-[#FBF8F3]">
 //                 <span className="text-[8px] uppercase tracking-widest font-bold text-[#1B4341] text-center px-2 leading-tight">
-//                   Est. 1970 • Sydney •
+//                   Est. 2003 • Sydney •
 //                 </span>
 //               </div>
 //             </div>

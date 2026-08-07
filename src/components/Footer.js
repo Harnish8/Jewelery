@@ -42,17 +42,17 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div>
+        {/* <div>
           <h4 className="font-bold text-xs uppercase tracking-widest text-amber-200 mb-4 font-sans">
             Support
           </h4>
           <ul className="space-y-2.5 text-xs text-zinc-300">
             <li><a href="#shipping" className="hover:text-white transition-colors">Shipping & Returns</a></li>
             <li><a href="#sizing" className="hover:text-white transition-colors">Ring Size Guide</a></li>
-            <li><a href="#care" className="hover:text-white transition-colors">Jewelry Care Instructions</a></li>
+            <li><a href="#care" className="hover:text-white transition-colors">Jewellery Care Instructions</a></li>
             <li><a href="/contact" className="hover:text-white transition-colors">Customer Service</a></li>
           </ul>
-        </div>
+        </div> */}
 
         <div>
           <h4 className="font-bold text-xs uppercase tracking-widest text-amber-200 mb-4 font-sans">

@@ -217,7 +217,7 @@
 //         <div className="absolute bottom-8 left-5 right-5">
 //           <div className="border-t border-[#EADFC9] pt-5">
 //             <p className="text-[10px] uppercase tracking-widest text-[#999] text-center">
-//               Ethical Luxury Since 1970
+//               Crafting Timeless Jewellery Since 2003
 //             </p>
 //           </div>
 //         </div>
@@ -456,7 +456,7 @@ export default function Navbar() {
         <div className="absolute bottom-8 left-5 right-5">
           <div className="border-t border-[#EADFC9] pt-5">
             <p className="text-[10px] uppercase tracking-widest text-[#999] text-center">
-              Ethical Luxury Since 1970
+              Crafting Timeless Jewellery Since 2003
             </p>
           </div>
         </div>

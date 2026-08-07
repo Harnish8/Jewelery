@@ -29,8 +29,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "G R Jewellers | Sustainable Gold & Ethical Jewelry",
-  description: "Ethical luxury jewelry crafted with sustainable gold and natural ethically sourced stones.",
+  title: "G R Jewellers | Sustainable Gold & Ethical Jewellery",
+  description: "Ethical luxury Jewellery crafted with sustainable gold and natural ethically sourced stones.",
 };
 
 export default function RootLayout({ children }) {

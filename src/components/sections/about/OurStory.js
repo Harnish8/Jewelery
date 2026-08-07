@@ -20,7 +20,7 @@
 //         <div className="lg:col-span-8 space-y-8">
 //           <RevealOnScroll mode="fade-in-up" delay={100}>
 //             <p className="text-lg sm:text-xl font-serif text-[#1D1D1D] leading-relaxed">
-//               In 1970, our founder set out with a simple conviction: a piece of jewelry should
+//               In 2003, our founder set out with a simple conviction: a piece of Jewellery should
 //               carry no hidden cost. Not to the land it was mined from, not to the people who
 //               shaped it, and not to the wearer who would carry it for a lifetime.
 //             </p>
@@ -42,7 +42,7 @@
 //               beauty stop competing with each other.&rdquo;
 //             </p>
 //             <span className="block mt-3 text-xs uppercase tracking-widest text-[#777]">
-//               Founding Atelier Philosophy, 1970
+//               Founding Atelier Philosophy, 2003
 //             </span>
 //           </RevealOnScroll>
 

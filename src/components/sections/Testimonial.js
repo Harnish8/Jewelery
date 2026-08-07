@@ -31,7 +31,7 @@ export default function Testimonial() {
           <div className="w-64 aspect-[3/4] rounded-t-full rounded-b-2xl overflow-hidden shadow-xl border-4 border-white bg-white">
             <img
               src="/image/gr/8.png"
-              alt="Kathryn Murphy testimonial portrait"
+              alt="Priya Patel Testimonial"
               className="w-full h-full object-cover"
             />
           </div>
