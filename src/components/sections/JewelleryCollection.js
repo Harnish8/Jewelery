@@ -19,10 +19,10 @@ export default function JewelleryCollection() {
             <h3 className="text-2xl font-serif text-[#1D1D1D] mt-2 leading-tight">
               Custom & Personalised <br /> Rings
             </h3>
-            <button className="mt-4 px-5 py-2 rounded-full bg-white border border-[#EADFC9] text-xs font-bold uppercase tracking-wider text-[#1B4341] hover:bg-[#1B4341] hover:text-white transition-all flex items-center gap-1.5">
+            {/* <button className="mt-4 px-5 py-2 rounded-full bg-white border border-[#EADFC9] text-xs font-bold uppercase tracking-wider text-[#1B4341] hover:bg-[#1B4341] hover:text-white transition-all flex items-center gap-1.5">
               <span>Explore</span>
               <IconArrowRight className="w-3.5 h-3.5" />
-            </button>
+            </button> */}
             <div className="w-full aspect-square mt-6 overflow-hidden rounded-2xl bg-white flex items-center justify-center p-4 shadow-inner">
               <img
                 src="https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=600&q=80"
@@ -60,10 +60,10 @@ export default function JewelleryCollection() {
             <h3 className="text-2xl font-serif text-[#1D1D1D] mt-2 leading-tight">
               Diamond & Gemstone <br /> Earrings
             </h3>
-            <button className="mt-4 px-5 py-2 rounded-full bg-white border border-[#EADFC9] text-xs font-bold uppercase tracking-wider text-[#1B4341] hover:bg-[#1B4341] hover:text-white transition-all flex items-center gap-1.5">
+            {/* <button className="mt-4 px-5 py-2 rounded-full bg-white border border-[#EADFC9] text-xs font-bold uppercase tracking-wider text-[#1B4341] hover:bg-[#1B4341] hover:text-white transition-all flex items-center gap-1.5">
               <span>Explore</span>
               <IconArrowRight className="w-3.5 h-3.5" />
-            </button>
+            </button> */}
             <div className="w-full aspect-square mt-6 overflow-hidden rounded-2xl bg-white flex items-center justify-center p-4 shadow-inner">
               <img
                 src="/image/5041.jpg"

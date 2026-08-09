@@ -25,7 +25,7 @@ export default function Hero() {
             <span className="inline-flex items-center align-middle mx-1 px-3.5 py-1 rounded-full bg-white border border-[#EADFC9] shadow-md transform -rotate-3 hover:rotate-0 transition-transform">
               <img
                 src="https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=160&q=80"
-                alt="Diamond Ring Pill"
+                alt="Diamond Ring"
                 className="w-16 sm:w-20 h-9 sm:h-11 object-cover rounded-full"
               />
             </span>{" "}
@@ -54,7 +54,7 @@ export default function Hero() {
               <span className="w-8 h-8 rounded-full bg-[#1B4341] text-white flex items-center justify-center">
                 <IconPlay className="w-3.5 h-3.5 ml-0.5" />
               </span>
-              <span>Watch Campaign Audio</span>
+              <span>Watch Campaign</span>
             </button>
           </RevealOnScroll>
         </div>

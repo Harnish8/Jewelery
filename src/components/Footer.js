@@ -61,7 +61,7 @@ export default function Footer() {
           <p className="text-xs text-zinc-300 mb-4">
             Contact us for more details.
           </p>
-          <div className="flex border border-white/30 rounded-full bg-black/30 overflow-hidden p-1">
+          {/* <div className="flex border border-white/30 rounded-full bg-black/30 overflow-hidden p-1">
             <input
               type="email"
               placeholder="Enter your email..."
@@ -70,6 +70,10 @@ export default function Footer() {
             <button className="px-4 py-1.5 bg-white text-[#1B4341] rounded-full text-[10px] font-bold uppercase tracking-wider hover:bg-amber-100 transition-colors">
               Join
             </button>
+          </div> */}
+          <div className="flex items-center gap-4 mt-6 text-zinc-300">
+            <Link href="https://www.instagram.com/g.r.jewellerss/" ><IconInstagram className="w-4 h-4 cursor-pointer hover:text-white" /></Link>
+            <Link href="https://www.facebook.com/GRJewellers/" ><IconFacebook className="w-4 h-4 cursor-pointer hover:text-white" /></Link>
           </div>
         </div>
       </div>

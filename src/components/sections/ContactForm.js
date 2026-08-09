@@ -28,7 +28,7 @@ export default function ContactForm() {
             Request Private Consultation
           </h2>
           <p className="text-xs sm:text-sm text-[#1B4341] font-light mt-3 leading-relaxed">
-            Connect with an G R Jewellers private jeweler to schedule a personal viewing, inquire about our archive creations, or commission a personalized ethical gold heirloom.
+            Connect with an G R Jewellers private jeweller to schedule a personal viewing, inquire about our archive creations, or commission a personalized ethical gold heirloom.
           </p>
         </div>
 
