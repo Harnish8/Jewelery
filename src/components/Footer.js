@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-[#1B4341] text-white pt-20 pb-12 px-6 mt-16 border-t border-[#122D2B]">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 pb-16 border-b border-white/15 text-sm font-light">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 pb-16 border-b border-white/15 text-sm font-light">
         <div>
           <Link href="/" className="flex items-center gap-2 text-3xl font-serif font-bold text-white mb-4">
             <span className="relative h-10 w-[62px] sm:h-12 sm:w-[74px] lg:h-14 lg:w-[86px] shrink-0">
@@ -24,10 +24,10 @@ export default function Footer() {
           <p className="text-xs text-zinc-300 leading-relaxed max-w-xs">
             Discover timeless diamond, gold and silver jewellery at GR Jewellers, a trusted jewellery store in Anand, handcrafted by a GIA Certified Jeweller.
           </p>
-          <div className="flex items-center gap-4 mt-6 text-zinc-300">
+          {/* <div className="flex items-center gap-4 mt-6 text-zinc-300">
             <Link href="https://www.instagram.com/g.r.jewellerss/" ><IconInstagram className="w-4 h-4 cursor-pointer hover:text-white" /></Link>
             <Link href="https://www.facebook.com/GRJewellers/" ><IconFacebook className="w-4 h-4 cursor-pointer hover:text-white" /></Link>
-          </div>
+          </div> */}
         </div>
 
         <div>
