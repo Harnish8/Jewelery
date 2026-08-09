@@ -7,8 +7,8 @@ import Ateliers from "@/components/sections/about/Ateliers";
 import AboutCta from "@/components/sections/about/AboutCta";
 
 export const metadata = {
-  title: "About Us | G R Jewellers",
-  description: "Five decades of ethical, sustainable Jewellery craftsmanship — the story, values, and ateliers behind G R Jewellers.",
+  title: "About GR Jewellers | Heritage Jewellery Experts in Anand",
+  description: "Discover the story behind GR Jewellers in Anand, built on generations of craftsmanship, trusted expertise and personalised jewellery design.",
 };
 
 export default function AboutPage() {

@@ -88,7 +88,7 @@ const faqs = [
   {
     q: "What types of jewellery does GR Jewellers specialise in?",
     intro:
-      "At GR Jewellers, we offer a wide range of fine jewellery, combining over 100 years of family craftsmanship with modern design expertise.",
+      "At GR Jewellers, we offer a wide range of fine jewellery, combining generations of family craftsmanship with modern design expertise.",
     listTitle: "We specialise in:",
     points: [
       "Bespoke and custom jewellery designs",
@@ -174,7 +174,7 @@ const faqs = [
       "Choosing the right jeweller is about more than finding a beautiful design—it's about trust, expertise, and lasting craftsmanship.",
     listTitle: "Here's why customers choose GR Jewellers:",
     points: [
-      "Over 100 years of family jewellery heritage across four generations",
+      "Generations of family jewellery craftsmanship across four generations",
       "Official showroom established in 2003 in Anand, Gujarat",
       "Expert guidance from a GIA-certified jewellery professional",
       "Specialists in gold, silver, platinum, diamonds, gemstones, and colour stones",

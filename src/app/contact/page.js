@@ -4,8 +4,8 @@ import ContactSplit from "@/components/sections/contact/ContactSplit";
 import FaqAccordion from "@/components/sections/contact/FaqAccordion";
 
 export const metadata = {
-  title: "Contact Us | G R Jewellers",
-  description: "Book a private consultation or reach an G R Jewellers advisor in Sydney, Melbourne, or Perth.",
+  title: "Contact GR Jewellers | Jewellery Experts in Anand, Gujarat",
+  description: "Contact GR Jewellers in Anand for custom jewellery, wedding designs, diamonds and gemstones. Speak with our experts or visit our showroom today.",
 };
 
 export default function ContactPage() {

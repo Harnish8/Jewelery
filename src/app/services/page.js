@@ -4,9 +4,9 @@ import WhyChooseUs from "@/components/sections/services/WhyChooseUs";
 import ServiceProcess from "@/components/sections/services/ServiceProcess";
 
 export const metadata = {
-  title: "Services | G R Jewellers — Bespoke Jewellery & Wedding Specialist",
+  title: "Custom & Bespoke Jewellery Services | GR Jewellers Anand",
   description:
-    "Bespoke ring designs, wedding jewellery specialist, and ethically sourced gold, silver & diamond retailer. Discover G R Jewellers luxury services.",
+    "Explore bespoke jewellery, custom rings and wedding jewellery at GR Jewellers in Anand. Discover personalised gold, diamond and gemstone designs.",
 };
 
 export default function ServicesPage() {

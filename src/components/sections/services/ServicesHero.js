@@ -64,7 +64,7 @@ export default function ServicesHero() {
 
             <RevealOnScroll mode="fade-in-up" delay={700}>
               <p className="mt-8 text-sm sm:text-base text-white/60 font-light max-w-md leading-relaxed">
-                At GR Jewellers, we specialise in bespoke jewellery, custom & personalised jewellery, and elegant wedding jewellery designed to celebrate life&apos;s most meaningful moments. From custom engagement rings and couple wedding rings to handcrafted gold, diamond, gemstone, and colour stone jewellery, every creation is thoughtfully designed by our GIA Certified Jewellery Designer with over a century of family craftsmanship behind it.
+                At GR Jewellers, we specialise in bespoke jewellery, custom & personalised jewellery, and elegant wedding jewellery designed to celebrate life&apos;s most meaningful moments. From custom engagement rings and couple wedding rings to handcrafted gold, diamond, gemstone, and colour stone jewellery, every creation is thoughtfully designed by our GIA Certified Jewellery Designer drawing on generations of family craftsmanship.
               </p>
             </RevealOnScroll>
 
