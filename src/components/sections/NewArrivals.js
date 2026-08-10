@@ -7,7 +7,7 @@ const newArrivals = [
     id: 101,
     name: "Diamond Ring",
     spec: "Certified Diamond",
-    img: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=600&q=80",
+    img: "/image/gr/Ring3.png",
   },
   {
     id: 102,

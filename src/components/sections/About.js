@@ -81,7 +81,7 @@ export default function About() {
         <RevealOnScroll mode="scale-up" delay={200} className="lg:col-span-6">
           <div className="relative aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-[#EADFC9]">
             <img
-              src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1000&q=80"
+              src="/image/gr/500.500.png"
               alt="G R Jewellers Indian Craftsmanship"
               className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-1000"
             />

@@ -19,7 +19,7 @@ const services = [
       "Handcrafted with exceptional precision and care",
     ],
     image:
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+      "/image/gr/Ring5.png",
     accent: "from-[#1B4341] to-[#2A5E5B]",
   },
   {
