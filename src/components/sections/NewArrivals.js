@@ -7,25 +7,25 @@ const newArrivals = [
     id: 101,
     name: "Diamond Ring",
     spec: "Certified Diamond",
-    img: "/image/gr/Ring3.png",
+    img: "/image/gr/all/ring6.png",
   },
   {
     id: 102,
     name: "Diamond Bracelet",
     spec: "Luxury Collection",
-    img: "/image/gr/600.398 (2).png",
+    img: "/image/gr/all/bracelet2.png",
   },
   {
     id: 103,
     name: "Gold Earrings",
     spec: "Handcrafted Design",
-    img: "/image/6.jpg",
+    img: "/image/gr/all/earring.png",
   },
   {
     id: 104,
     name: "Diamond Pendant",
     spec: "Custom Available",
-    img: "https://images.unsplash.com/photo-1589674781759-c21c37956a44?auto=format&fit=crop&w=600&q=80",
+    img: "/image/gr/all/necklace2.png",
   },
 ];
 

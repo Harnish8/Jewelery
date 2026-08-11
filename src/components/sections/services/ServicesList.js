@@ -19,7 +19,7 @@ const services = [
       "Handcrafted with exceptional precision and care",
     ],
     image:
-      "/image/gr/Ring5.png",
+      "/image/gr/all/ring1.png",
     accent: "from-[#1B4341] to-[#2A5E5B]",
   },
   {
@@ -36,7 +36,7 @@ const services = [
       "Expert guidance from design to final creation",
     ],
     image:
-      "/image/gr/21.png",
+      "/image/gr/all/set3.png",
     accent: "from-[#6B5B3E] to-[#8B7355]",
   },
   {
@@ -53,7 +53,7 @@ const services = [
       "Elegant jewellery for every occasion",
     ],
     image:
-      "/image/gr/12.png",
+      "/image/gr/all/set1.png",
     accent: "from-[#3D3229] to-[#5C4E3E]",
   },
 ];

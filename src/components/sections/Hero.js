@@ -24,7 +24,7 @@ export default function Hero() {
             <TextSplitReveal text="Custom & Personalised" type="words" delay={200} /> <br />
             <span className="inline-flex items-center align-middle mx-1 px-3.5 py-1 rounded-full bg-white border border-[#EADFC9] shadow-md transform -rotate-3 hover:rotate-0 transition-transform">
               <img
-                src="/image/gr/Ring5.png"
+                src="/image/gr/all/ring1.png"
                 alt="Diamond Ring"
                 className="w-16 sm:w-20 h-9 sm:h-11 object-cover rounded-full"
               />
