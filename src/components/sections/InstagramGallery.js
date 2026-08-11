@@ -7,7 +7,7 @@ export default function InstagramGallery() {
     <section className="py-12 px-6 max-w-7xl mx-auto">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
         <RevealOnScroll mode="fade-in-up" delay={0}>
-          <Card3DTilt className="aspect-square rounded-2xl overflow-hidden shadow-md group cursor-pointer relative bg-black">
+          <Card3DTilt className="aspect-square rounded-2xl overflow-hidden shadow-md group cursor-pointer relative">
             <img src="/image/gr/all/modal5.png" alt="Insta 1" className="w-full h-full object-cover group-hover:scale-110 group-hover:opacity-80 transition-all duration-500" />
             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white">
               <IconInstagram className="w-8 h-8" />
@@ -16,7 +16,7 @@ export default function InstagramGallery() {
         </RevealOnScroll>
 
         <RevealOnScroll mode="fade-in-up" delay={120}>
-          <Card3DTilt className="aspect-square rounded-2xl overflow-hidden shadow-md group cursor-pointer relative bg-black">
+          <Card3DTilt className="aspect-square rounded-2xl overflow-hidden shadow-md group cursor-pointer relative">
             <img src="/image/gr/all/necklace2.png" alt="Insta 2" className="w-full h-full object-cover group-hover:scale-110 group-hover:opacity-80 transition-all duration-500" />
             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white">
               <IconInstagram className="w-8 h-8" />
@@ -25,7 +25,7 @@ export default function InstagramGallery() {
         </RevealOnScroll>
 
         <RevealOnScroll mode="fade-in-up" delay={240}>
-          <Card3DTilt className="aspect-square rounded-2xl overflow-hidden shadow-md group cursor-pointer relative bg-black">
+          <Card3DTilt className="aspect-square rounded-2xl overflow-hidden shadow-md group cursor-pointer relative">
             <img src="/image/gr/all/bracelet1.png" alt="Insta 3" className="w-full h-full object-cover group-hover:scale-110 group-hover:opacity-80 transition-all duration-500" />
             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white">
               <IconInstagram className="w-8 h-8" />

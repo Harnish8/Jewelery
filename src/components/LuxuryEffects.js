@@ -295,11 +295,11 @@ export function HorizontalScrollShowcase({
             className={`shrink-0 ${cardClassName}`}
           >
             <Card3DTilt className="bg-white rounded-3xl overflow-hidden border border-zinc-200 shadow-lg group">
-              <div className="relative aspect-[4/5] bg-stone-100 overflow-hidden">
+              <div className="relative h-72 sm:h-80 flex items-center justify-center overflow-hidden">
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  className="max-w-full max-h-full object-contain group-hover:scale-110 transition-transform duration-700"
                 />
                 <span className="absolute top-4 left-4 bg-black/80 backdrop-blur-md text-white text-[10px] uppercase tracking-widest px-3 py-1 rounded-full font-bold">
                   {item.category}

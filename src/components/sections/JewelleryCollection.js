@@ -23,7 +23,7 @@ export default function JewelleryCollection() {
               <span>Explore</span>
               <IconArrowRight className="w-3.5 h-3.5" />
             </button> */}
-            <div className="w-full aspect-square mt-6 overflow-hidden rounded-2xl bg-white flex items-center justify-center p-4 shadow-inner">
+            <div className="w-full aspect-square mt-6 overflow-hidden rounded-2xl flex items-center justify-center p-4">
               <img
                 src="/image/gr/all/ring4.png"
                 alt="Joyful Connection Ring"
@@ -36,7 +36,7 @@ export default function JewelleryCollection() {
         {/* Col 2: Necklaces Arched Photo */}
         <RevealOnScroll mode="scale-up" delay={250}>
           <Card3DTilt className="flex flex-col items-center bg-[#ECE6DC] p-8 rounded-t-full rounded-b-3xl border border-[#DCD3C6] shadow-md transform hover:-translate-y-2 transition-all mt-0 md:-mt-12">
-            <div className="w-full aspect-[3/4] rounded-t-full rounded-b-2xl overflow-hidden bg-white mb-6 shadow-inner">
+            <div className="w-full aspect-[3/4] rounded-t-full rounded-b-2xl overflow-hidden mb-6">
               <img
                 src="/image/gr/all/necklace1.png"
                 alt="Inspiration Necklaces"
@@ -64,7 +64,7 @@ export default function JewelleryCollection() {
               <span>Explore</span>
               <IconArrowRight className="w-3.5 h-3.5" />
             </button> */}
-            <div className="w-full aspect-square mt-6 overflow-hidden rounded-2xl bg-white flex items-center justify-center p-4 shadow-inner">
+            <div className="w-full aspect-square mt-6 overflow-hidden rounded-2xl flex items-center justify-center p-4">
               <img
                 src="/image/gr/all/earring.png"
                 alt="Amazing Earrings"

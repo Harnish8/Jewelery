@@ -96,11 +96,11 @@ export default function ServicesList() {
                     idx % 2 !== 0 ? "lg:order-2" : "lg:order-1"
                   }`}
                 >
-                  <Card3DTilt className="rounded-3xl overflow-hidden shadow-xl border-4 border-white bg-[#EADFC9] aspect-[4/3]">
+                  <Card3DTilt className="rounded-3xl overflow-hidden h-[360px] flex items-center justify-center">
                     <img
                       src={service.image}
                       alt={service.title}
-                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                      className="max-w-full max-h-full object-contain hover:scale-105 transition-transform duration-700"
                     />
                   </Card3DTilt>
                 </div>

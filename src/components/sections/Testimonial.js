@@ -65,7 +65,7 @@ const testimonials = [
   },
   {
     quote:
-      "I wanted to create a piece of jewellery that had a connection to my family but still felt modern and suited my style. GR Jewellers took the time to understand exactly what I wanted and guided me through the whole process. I really appreciated how personal the experience felt. The finished jewellery was beautiful, and the quality was honestly better than I expected.",
+      "I wanted to create a piece of jewellery that had a connection to my family but still felt modern and suited my style. GR Jewellers took the time to understand exactly what I wanted and guided me through the whole process. I really appreciated how personal the experience felt. The finished jewellery was beautiful, and the quality was better than I expected.",
     name: "JIGNESH SHAH",
     location: "Anand, Gujarat",
   },
@@ -122,7 +122,7 @@ export default function Testimonial() {
 
           {/* Right Arched Portrait — single shared image */}
           <div className="md:col-span-5 flex justify-center">
-            <div className="w-64 aspect-[3/4] rounded-t-full rounded-b-2xl overflow-hidden shadow-xl border-4 border-white bg-white">
+            <div className="w-64 aspect-[3/4] rounded-t-full rounded-b-2xl overflow-hidden shadow-xl border-4 border-white">
               <img
                 src="/image/gr/all/modal2.png"
                 alt={`${current.name} Testimonial`}

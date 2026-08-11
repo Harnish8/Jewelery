@@ -63,7 +63,7 @@ export default function NewArrivals() {
                 spotlightColor="rgba(27, 67, 65, 0.2)"
                 className="bg-white text-[#1D1D1D] rounded-2xl overflow-hidden p-4 shadow-lg group flex flex-col justify-between"
               >
-                <div className="relative aspect-square bg-[#FBF8F3] rounded-xl overflow-hidden flex items-center justify-center p-4 mb-4">
+                <div className="relative aspect-square rounded-xl overflow-hidden flex items-center justify-center p-4 mb-4">
                   <img
                     src={item.img}
                     alt={item.name}
