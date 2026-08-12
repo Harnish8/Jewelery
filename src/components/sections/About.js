@@ -79,21 +79,21 @@ export default function About() {
         </RevealOnScroll> */}
 
         <RevealOnScroll mode="scale-up" delay={200} className="lg:col-span-6">
-          <div className="relative aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-[#EADFC9]">
+          <div className="relative aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden ">
             <img
-              src="/image/gr/all/ring3.png"
+              src="/image/gr/all/1/ring3.png"
               alt="G R Jewellers Indian Craftsmanship"
               className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-1000"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#1B4341]/80 via-transparent to-transparent" />
-            <div className="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-auto text-white">
+            {/* <div className="absolute inset-0 bg-gradient-to-t from-[#1B4341]/80 via-transparent to-transparent" /> */}
+            {/* <div className="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-auto text-white">
               <span className="text-[10px] sm:text-xs uppercase tracking-widest text-amber-200 font-semibold">
                 ANAND • GUJARAT • SERVING CLIENTS WORLDWIDE
               </span>
               <p className="text-lg sm:text-xl lg:text-2xl font-serif leading-snug mt-1">
                 Crafted with Heritage. Designed for Generations.
               </p>
-            </div>
+            </div> */}
           </div>
         </RevealOnScroll>
       </div>

@@ -13,7 +13,7 @@ const newArrivals = [
     id: 102,
     name: "Diamond Bracelet",
     spec: "Luxury Collection",
-    img: "/image/gr/all/bracelet2.png",
+    img: "/image/gr/all/1/bracelet2.png",
   },
   {
     id: 103,

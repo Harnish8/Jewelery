@@ -75,7 +75,7 @@ export default function StatsBanner() {
         >
           <div className="w-20 h-20 sm:w-28 sm:h-28 overflow-hidden transform group-hover:scale-110 transition-transform duration-500">
             <img
-              src="/image/gr/all/set6.png"
+              src="/image/gr/all/1/set6.png"
               alt="Sapphire Pendant"
               className="w-full h-full object-contain filter drop-shadow-lg"
             />
