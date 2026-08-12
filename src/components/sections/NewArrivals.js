@@ -7,7 +7,7 @@ const newArrivals = [
     id: 101,
     name: "Diamond Ring",
     spec: "Certified Diamond",
-    img: "/image/gr/all/ring6.png",
+    img: "/image/gr/all/1/ring6.png",
   },
   {
     id: 102,
