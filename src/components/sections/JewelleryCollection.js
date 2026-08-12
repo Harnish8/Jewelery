@@ -38,7 +38,7 @@ export default function JewelleryCollection() {
           <Card3DTilt className="flex flex-col items-center bg-[#ECE6DC] p-8 rounded-t-full rounded-b-3xl border border-[#DCD3C6] shadow-md transform hover:-translate-y-2 transition-all mt-0 md:-mt-12">
             <div className="w-full aspect-[3/4] rounded-t-full rounded-b-2xl overflow-hidden mb-6">
               <img
-                src="/image/gr/all/necklace1.png"
+                src="/image/gr/all/set7.png"
                 alt="Inspiration Necklaces"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-700"
               />
