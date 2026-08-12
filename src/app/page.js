@@ -8,10 +8,17 @@ import Testimonial from "@/components/sections/Testimonial";
 import InstagramGallery from "@/components/sections/InstagramGallery";
 import About from "@/components/sections/About";
 import ContactForm from "@/components/sections/ContactForm";
+import PromoBanner from "@/components/sections/PromoBanner";
 
 export default function HomePage() {
   return (
     <div className="bg-[#FBF8F3] text-[#1D1D1D] min-h-screen font-sans selection:bg-[#1B4341] selection:text-white pb-20">
+      <PromoBanner
+        href="/contact"
+        desktopSrc="/image/banner-desktop.png"
+        mobileSrc="/image/banner-mobile.png"
+        alt="Diamond collection banner"
+      />
       <Hero />
       <StatsBanner />
       <JewelleryCollection />
