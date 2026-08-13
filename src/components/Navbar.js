@@ -40,10 +40,10 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`sticky top-0 z-50 w-full bg-[#1B4341]/98 backdrop-blur-md border-b border-white/10 px-4 flex items-center justify-between transition-all ${
+        className={`sticky top-0 z-50 w-full bg-[#1B4341]/98 backdrop-blur-md border-b border-white/10 px-4 sm:px-6 lg:px-16 flex items-center justify-between transition-all ${
           scrolled
-            ? "py-2 shadow-md min-h-[72px]"
-            : "shadow-sm min-h-[80px] sm:min-h-[88px]"
+            ? "py-3 shadow-md min-h-[72px]"
+            : "py-4 sm:py-5 shadow-sm min-h-[80px] sm:min-h-[88px]"
         }`}
       >
         {/* Mobile hamburger */}
@@ -76,13 +76,13 @@ export default function Navbar() {
             href="/"
             className="flex items-center gap-2 sm:gap-3 text-2xl sm:text-2xl lg:text-3xl font-serif font-bold tracking-wider text-white hover:opacity-85 transition-opacity"
           >
-            <span className="relative h-16 w-[90px] sm:h-20 sm:w-[110px] lg:h-24 lg:w-[130px] shrink-0">
+            <span className="relative h-12 w-[76px] sm:h-14 sm:w-[86px] lg:h-14 lg:w-[86px] shrink-0">
               <Image
                 src="/image/logo.webp"
                 alt="G R Jewellers"
                 fill
                 quality={80}
-                sizes="(max-width: 640px) 180px, (max-width: 1024px) 220px, 260px"
+                sizes="(max-width: 640px) 152px, (max-width: 1024px) 172px, 172px"
                 className="object-contain image-render-crisp"
                 priority
               />
@@ -149,10 +149,10 @@ export default function Navbar() {
         }`}
       >
         {/* Drawer Header */}
-        <div className="flex items-center justify-between px-5 py-5 border-b bg-[#1B4341] border-[#1B4341]">
+        <div className="flex items-center justify-between px-5 py-5 border-b border-[#EADFC9]">
           <Link
             href="/"
-            className="flex items-center gap-2 text-xl font-serif font-bold text-[#EADFC9]"
+            className="flex items-center gap-2 text-xl font-serif font-bold text-[#1B4341]"
             onClick={() => setMobileOpen(false)}
           >
             <span className="relative w-11 h-11 shrink-0">
@@ -160,7 +160,7 @@ export default function Navbar() {
                 src="/image/logo.webp"
                 alt="G R Jewellers"
                 fill
-                sizes="100px"
+                sizes="44px"
                 className="object-contain"
               />
             </span>
