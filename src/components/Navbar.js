@@ -76,13 +76,13 @@ export default function Navbar() {
             href="/"
             className="flex items-center gap-2 sm:gap-3 text-2xl sm:text-2xl lg:text-3xl font-serif font-bold tracking-wider text-white hover:opacity-85 transition-opacity"
           >
-            <span className="relative h-16 w-[100px] sm:h-20 sm:w-[124px] lg:h-24 lg:w-[148px] shrink-0">
+            <span className="relative h-16 w-[90px] sm:h-20 sm:w-[110px] lg:h-24 lg:w-[130px] shrink-0">
               <Image
                 src="/image/logo.webp"
                 alt="G R Jewellers"
                 fill
                 quality={80}
-                sizes="(max-width: 640px) 200px, (max-width: 1024px) 248px, 296px"
+                sizes="(max-width: 640px) 180px, (max-width: 1024px) 220px, 260px"
                 className="object-contain image-render-crisp"
                 priority
               />
@@ -149,7 +149,7 @@ export default function Navbar() {
         }`}
       >
         {/* Drawer Header */}
-        <div className="flex items-center justify-between px-5 py-5 border-b border-[#1B4341]">
+        <div className="flex items-center justify-between px-5 py-5 border-b bg-[#1B4341] border-[#1B4341]">
           <Link
             href="/"
             className="flex items-center gap-2 text-xl font-serif font-bold text-[#EADFC9]"
@@ -160,7 +160,7 @@ export default function Navbar() {
                 src="/image/logo.webp"
                 alt="G R Jewellers"
                 fill
-                sizes="50px"
+                sizes="100px"
                 className="object-contain"
               />
             </span>
