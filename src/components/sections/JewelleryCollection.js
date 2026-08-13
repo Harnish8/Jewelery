@@ -5,9 +5,15 @@ import { RevealOnScroll, TextSplitReveal, Card3DTilt } from "@/components/Luxury
 export default function JewelleryCollection() {
   return (
     <section id="jewellery" className="py-20 px-6 lg:px-16 max-w-7xl mx-auto">
-      <RevealOnScroll mode="fade-in-up" className="text-center max-w-2xl mx-auto mb-16">
+      <RevealOnScroll
+        mode="fade-in-up"
+        className="text-center max-w-2xl mx-auto mb-16"
+      >
         <h2 className="text-4xl sm:text-6xl font-serif font-light text-[#1B4341]">
-          <TextSplitReveal text="Discover Our Jewellery Collection" type="words" />
+          <TextSplitReveal
+            text="Discover Our Jewellery Collection"
+            type="words"
+          />
         </h2>
       </RevealOnScroll>
 
@@ -15,7 +21,9 @@ export default function JewelleryCollection() {
         {/* Col 1: Rings */}
         <RevealOnScroll mode="fade-in-up" delay={100}>
           <Card3DTilt className="flex flex-col items-start bg-[#F5EDE1] p-8 rounded-3xl border border-[#EADFC9] shadow-sm transform hover:-translate-y-1 transition-all">
-            <span className="text-xs font-bold tracking-widest uppercase text-[#1B4341]">Category 01</span>
+            <span className="text-xs font-bold tracking-widest uppercase text-[#1B4341]">
+              Category 01
+            </span>
             <h3 className="text-2xl font-serif text-[#1D1D1D] mt-2 leading-tight">
               Custom & Personalised <br /> Rings
             </h3>
@@ -36,11 +44,11 @@ export default function JewelleryCollection() {
         {/* Col 2: Necklaces Arched Photo */}
         <RevealOnScroll mode="scale-up" delay={250}>
           <Card3DTilt className="flex flex-col items-center bg-[#ECE6DC] p-8 rounded-t-full rounded-b-3xl border border-[#DCD3C6] shadow-md transform hover:-translate-y-2 transition-all mt-0 md:-mt-12">
-            <div className="w-full aspect-[3/4] rounded-t-full rounded-b-2xl overflow-hidden mb-6">
+            <div className="w-full aspect-[3/4] rounded-t-full rounded-b-2xl overflow-hidden mb-6 bg-[#DCD3C6] flex items-center justify-center">
               <img
                 src="/image/gr/all/necklace1.png"
                 alt="Inspiration Necklaces"
-                className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-700"
+                className="max-w-full max-h-full object-contain transform hover:scale-110 transition-transform duration-700"
               />
             </div>
             <h3 className="text-2xl font-serif text-[#1B4341] text-center leading-tight">
@@ -56,7 +64,9 @@ export default function JewelleryCollection() {
         {/* Col 3: Earrings */}
         <RevealOnScroll mode="fade-in-up" delay={400}>
           <Card3DTilt className="flex flex-col items-start bg-[#F5EDE1] p-8 rounded-3xl border border-[#EADFC9] shadow-sm transform hover:-translate-y-1 transition-all">
-            <span className="text-xs font-bold tracking-widest uppercase text-[#1B4341]">Category 03</span>
+            <span className="text-xs font-bold tracking-widest uppercase text-[#1B4341]">
+              Category 03
+            </span>
             <h3 className="text-2xl font-serif text-[#1D1D1D] mt-2 leading-tight">
               Diamond & Gemstone <br /> Earrings
             </h3>
