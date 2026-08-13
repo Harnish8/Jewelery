@@ -37,7 +37,10 @@ export default function NewArrivals() {
       className="py-20 px-6 lg:px-16 my-12"
     >
       <div id="products" className="max-w-7xl mx-auto">
-        <RevealOnScroll mode="fade-in-up" className="flex items-end justify-between pb-10 border-b border-white/15">
+        <RevealOnScroll
+          mode="fade-in-up"
+          className="flex items-end justify-between pb-10 border-b border-white/15"
+        >
           <div>
             <span className="text-xs uppercase tracking-[0.25em] text-amber-200 font-semibold block mb-2">
               LATEST CREATIONS
@@ -58,10 +61,15 @@ export default function NewArrivals() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
           {newArrivals.map((item, idx) => (
-            <RevealOnScroll key={item.id} mode="fade-in-up" delay={idx * 140}>
+            <RevealOnScroll
+              key={item.id}
+              mode="fade-in-up"
+              delay={idx * 140}
+              className="h-full"
+            >
               <Card3DTilt
                 spotlightColor="rgba(27, 67, 65, 0.2)"
-                className="bg-white text-[#1D1D1D] rounded-2xl overflow-hidden p-4 shadow-lg group flex flex-col justify-between"
+                className="bg-white text-[#1D1D1D] rounded-2xl overflow-hidden p-4 shadow-lg group flex flex-col justify-between h-full"
               >
                 <div className="relative aspect-square rounded-xl overflow-hidden flex items-center justify-center p-4 mb-4">
                   <img
@@ -72,8 +80,12 @@ export default function NewArrivals() {
                 </div>
                 <div className="px-2 pb-2 flex items-center justify-between">
                   <div>
-                    <h4 className="font-serif text-lg font-semibold">{item.name}</h4>
-                    <span className="text-xs font-bold text-[#1B4341] mt-0.5 block bg-[#EADFC9]/50 px-2.5 py-1 rounded-full uppercase tracking-wider">{item.spec}</span>
+                    <h4 className="font-serif text-lg font-semibold line-clamp-2 min-h-[3.5rem]">
+                      {item.name}
+                    </h4>
+                    <span className="text-xs font-bold text-[#1B4341] mt-0.5 block bg-[#EADFC9]/50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                      {item.spec}
+                    </span>
                   </div>
                   <a
                     href="#contact"
