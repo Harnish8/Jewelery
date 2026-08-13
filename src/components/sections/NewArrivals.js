@@ -23,7 +23,7 @@ const newArrivals = [
   },
   {
     id: 104,
-    name: "Diamond Pendant",
+    name: "Gold Necklace",
     spec: "Custom Available",
     img: "/image/webp/necklace2.webp",
   },
