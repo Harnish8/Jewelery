@@ -19,7 +19,7 @@ const contactDetails = [
   {
     icon: IconMail,
     title: "Email Us",
-    lines: ["grjewellershusmukhbhaisoni@gmail.com"],
+    lines: ["gr_jewellers@ymail.com"],
   },
   {
     icon: IconClock,

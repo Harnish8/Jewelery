@@ -15,7 +15,7 @@ const infoCards = [
   {
     icon: IconMail,
     title: "Email Us",
-    lines: ["grjewellershusmukhbhaisoni@gmail.com", "We aim to respond within 1 business day."],
+    lines: ["gr_jewellers@ymail.com", "We aim to respond within 1 business day."],
   },
   {
     icon: IconClock,
