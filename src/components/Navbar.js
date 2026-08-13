@@ -42,8 +42,8 @@ export default function Navbar() {
       <header
         className={`sticky top-0 z-50 w-full bg-[#1B4341]/98 backdrop-blur-md border-b border-white/10 px-4 sm:px-6 lg:px-16 flex items-center justify-between transition-all ${
           scrolled
-            ? "py-3 shadow-md min-h-[72px]"
-            : "py-4 sm:py-5 shadow-sm min-h-[80px] sm:min-h-[88px]"
+            ? "py-2 shadow-md min-h-[72px]"
+            : "py-2 sm:py-2 shadow-sm min-h-[80px] sm:min-h-[88px]"
         }`}
       >
         {/* Mobile hamburger */}
