@@ -76,21 +76,21 @@ export default function Navbar() {
             href="/"
             className="flex items-center gap-2 sm:gap-3 text-2xl sm:text-2xl lg:text-3xl font-serif font-bold tracking-wider text-white hover:opacity-85 transition-opacity"
           >
-            <span className="relative h-10 w-[62px] sm:h-12 sm:w-[74px] lg:h-14 lg:w-[86px] shrink-0">
+            <span className="relative h-12 w-[76px] sm:h-14 sm:w-[86px] lg:h-14 lg:w-[86px] shrink-0">
               <Image
                 src="/image/logo.webp"
                 alt="G R Jewellers"
                 fill
                 quality={80}
-                sizes="(max-width: 640px) 124px, (max-width: 1024px) 148px, 172px"
+                sizes="(max-width: 640px) 152px, (max-width: 1024px) 172px, 172px"
                 className="object-contain image-render-crisp"
                 priority
               />
             </span>
             {/* <span>G R Jewellers</span> */}
-            <span className="font-trajan text-gold-gradient font-bold tracking-widest">
-  G R Jewellers
-</span>
+            <span className="font-trajan text-gold-gradient font-bold tracking-normal text-xl sm:text-2xl lg:text-3xl">
+              G R Jewellers
+            </span>
           </Link>
         </div>
 
@@ -155,17 +155,17 @@ export default function Navbar() {
             className="flex items-center gap-2 text-xl font-serif font-bold text-[#1B4341]"
             onClick={() => setMobileOpen(false)}
           >
-            <span className="relative w-9 h-9 shrink-0">
+            <span className="relative w-11 h-11 shrink-0">
               <Image
                 src="/image/logo.webp"
                 alt="G R Jewellers"
                 fill
-                sizes="36px"
+                sizes="44px"
                 className="object-contain"
               />
             </span>
             {/* <span>G R Jewellers</span> */}
-            <span className="font-trajan text-gold-gradient font-bold tracking-widest">
+            <span className="font-trajan text-gold-gradient font-bold tracking-normal text-lg">
               G R Jewellers
             </span>
           </Link>

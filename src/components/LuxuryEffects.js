@@ -262,7 +262,9 @@ export function HorizontalScrollShowcase({
           <span className="text-[11px] uppercase tracking-[0.25em] text-[#63675E] font-bold block mb-2">
             {subtitle}
           </span>
-          <h3 className="text-3xl sm:text-5xl font-serif tracking-tight">{title}</h3>
+          <h3 className="text-3xl sm:text-5xl font-serif tracking-tight">
+            {title}
+          </h3>
         </div>
         <div className="flex items-center gap-3">
           <button
@@ -292,9 +294,9 @@ export function HorizontalScrollShowcase({
             key={item.id}
             mode="fade-in-up"
             delay={idx * 120}
-            className={`shrink-0 ${cardClassName}`}
+            className={`shrink-0 flex ${cardClassName}`}
           >
-            <Card3DTilt className="bg-white rounded-3xl overflow-hidden border border-zinc-200 shadow-lg group">
+            <Card3DTilt className="bg-white rounded-3xl overflow-hidden border border-zinc-200 shadow-lg group flex flex-col w-full">
               <div className="relative h-72 sm:h-80 flex items-center justify-center overflow-hidden">
                 <img
                   src={item.image}
@@ -305,13 +307,18 @@ export function HorizontalScrollShowcase({
                   {item.category}
                 </span>
               </div>
-              <div className="p-6">
-                <h4 className="text-xl font-serif font-medium">{item.title}</h4>
-                <div className="mt-4 flex items-center justify-between pt-4 border-t border-zinc-100 gap-2">
+              <div className="p-6 flex flex-col flex-1">
+                <h4 className="text-xl font-serif font-medium line-clamp-2 min-h-[3.5rem]">
+                  {item.title}
+                </h4>
+                <div className="mt-4 flex items-center justify-between pt-4 border-t border-zinc-100 gap-2 mt-auto">
                   <span className="font-sans font-bold text-xs uppercase tracking-widest text-[#63675E] bg-[#F4F1E9] px-3 py-1.5 rounded-full">
                     {item.spec || item.price || "Bespoke Archive"}
                   </span>
-                  <a href="#contact" className="px-5 py-2 rounded-full bg-black text-white text-xs font-bold uppercase tracking-wider hover:bg-amber-600 transition-colors">
+                  <a
+                    href="#contact"
+                    className="px-5 py-2 rounded-full bg-black text-white text-xs font-bold uppercase tracking-wider hover:bg-amber-600 transition-colors"
+                  >
                     Contact Us
                   </a>
                 </div>
