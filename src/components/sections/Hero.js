@@ -42,7 +42,7 @@ export default function Hero() {
               delay={200}
             />{" "}
             <br />
-            <span className="inline-flex items-center align-middle mx-1 px-3.5 py-1 rounded-full bg-white border border-[#EADFC9] shadow-md transform -rotate-3 hover:rotate-0 transition-transform">
+            <span className="hidden sm:inline-flex items-center align-middle mx-1 px-3.5 py-1 rounded-full bg-white border border-[#EADFC9] shadow-md transform -rotate-3 hover:rotate-0 transition-transform">
               <img
                 src="/image/webp/ring1.webp"
                 alt="Diamond Ring"
