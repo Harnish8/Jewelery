@@ -165,7 +165,7 @@ export default function Navbar() {
               />
             </span>
             {/* <span>G R Jewellers</span> */}
-            <span className="font-trajan text-gold-gradient font-bold tracking-normal text-lg">
+            <span className="font-trajan text-gold-gradient font-bold tracking-normal">
               G R Jewellers
             </span>
           </Link>
