@@ -13,10 +13,9 @@ export default function Footer() {
                             src="/image/logo.png"
                             alt="G R Jewellers"
                             fill
-                            quality={100}
+                            quality={80}
                             sizes="(max-width: 640px) 124px, (max-width: 1024px) 148px, 172px"
                             className="object-contain image-render-crisp"
-                            priority
                           />
                         </span>
             <span>G R Jewellers</span>

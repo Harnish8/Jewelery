@@ -25,7 +25,7 @@ export default function JewelleryCollection() {
             </button> */}
             <div className="w-full aspect-square mt-6 overflow-hidden rounded-2xl flex items-center justify-center p-4">
               <img
-                src="/image/gr/all/1/ring4.png"
+                src="/image/gr/all/ring4.png"
                 alt="Joyful Connection Ring"
                 className="w-full h-full object-contain transform hover:scale-110 transition-transform duration-700"
               />
