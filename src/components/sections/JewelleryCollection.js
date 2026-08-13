@@ -48,7 +48,7 @@ export default function JewelleryCollection() {
               <img
                 src="/image/gr/all/necklace1.png"
                 alt="Inspiration Necklaces"
-                className="max-w-full max-h-full object-contain transform hover:scale-110 transition-transform duration-700"
+                className="max-w-full max-h-full object-contain transform hover:scale-105 transition-transform duration-700"
               />
             </div>
             <h3 className="text-2xl font-serif text-[#1B4341] text-center leading-tight">
