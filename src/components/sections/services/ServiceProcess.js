@@ -46,8 +46,9 @@ export default function ServiceProcess() {
               Your Journey With Us
             </h2>
             <p className="mt-4 text-sm sm:text-base text-[#666] font-light max-w-lg mx-auto leading-relaxed">
-              From your first consultation to the final handcrafted piece, our process is transparent, personalised, and designed to
-              bring your vision to life with complete confidence.
+              From your first consultation to the final handcrafted piece, our
+              process is transparent, personalised, and designed to bring your
+              vision to life with complete confidence.
             </p>
           </div>
         </RevealOnScroll>
@@ -105,7 +106,10 @@ export default function ServiceProcess() {
                 Ready to Create Your Perfect Jewellery?
               </h3>
               <p className="text-sm sm:text-base text-white/60 font-light max-w-lg mx-auto leading-relaxed mb-8">
-                Whether you&apos;re designing a bespoke ring, choosing wedding jewellery, or creating a personalised heirloom, our experts are here to bring your vision to life with exceptional craftsmanship.
+                Whether you&apos;re designing a bespoke ring, choosing wedding
+                jewellery, or creating a personalised heirloom, our experts are
+                here to bring your vision to life with exceptional
+                craftsmanship.
               </p>
               <div className="flex flex-wrap items-center justify-center gap-4">
                 <a
@@ -115,7 +119,7 @@ export default function ServiceProcess() {
                   Book a Consultation
                 </a>
                 <a
-                  href="tel:+919825238877"
+                  href="tel:+918160383801"
                   className="border border-white/30 text-white px-8 py-3.5 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-white/10 transition-all"
                 >
                   Call Us Today

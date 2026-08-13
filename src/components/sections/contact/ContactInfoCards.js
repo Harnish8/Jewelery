@@ -10,7 +10,7 @@ const infoCards = [
   {
     icon: IconPhone,
     title: "Call Us",
-    lines: ["+91 9825238877", "+91 9723295992"],
+    lines: ["+91 8160383801", "+91 2691256606"],
   },
   {
     icon: IconMail,
