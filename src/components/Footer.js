@@ -10,7 +10,7 @@ export default function Footer() {
           <Link href="/" className="flex items-center gap-2 text-3xl font-serif font-bold text-white mb-4">
             <span className="relative h-10 w-[62px] sm:h-12 sm:w-[74px] lg:h-14 lg:w-[86px] shrink-0">
                           <Image
-                            src="/image/logo.png"
+                            src="/image/logo.webp"
                             alt="G R Jewellers"
                             fill
                             quality={80}

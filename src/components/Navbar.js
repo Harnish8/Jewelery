@@ -78,7 +78,7 @@ export default function Navbar() {
           >
             <span className="relative h-10 w-[62px] sm:h-12 sm:w-[74px] lg:h-14 lg:w-[86px] shrink-0">
               <Image
-                src="/image/logo.png"
+                src="/image/logo.webp"
                 alt="G R Jewellers"
                 fill
                 quality={80}
@@ -157,7 +157,7 @@ export default function Navbar() {
           >
             <span className="relative w-9 h-9 shrink-0">
               <Image
-                src="/image/logo.png"
+                src="/image/logo.webp"
                 alt="G R Jewellers"
                 fill
                 sizes="36px"

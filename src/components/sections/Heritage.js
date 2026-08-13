@@ -11,7 +11,7 @@ export default function Heritage() {
         <RevealOnScroll mode="fade-in-up" className="lg:col-span-6 relative">
           <div className="w-4/5 aspect-[4/5] rounded-t-full rounded-b-3xl overflow-hidden shadow-2xl bg-[#EADFC9] border-4 border-white mx-auto lg:mx-0">
             <img
-              src="/image/gr/all/modal4.png"
+              src="/image/webp/modal4.webp"
               alt="Crafting Timeless Jewellery Since 2003"
               className="w-full h-full object-cover"
             />
@@ -19,7 +19,7 @@ export default function Heritage() {
           {/* Floating Round Close-up Ring Photo */}
           <div className="absolute bottom-4 right-4 sm:right-12 w-40 h-40 rounded-full border-4 border-white shadow-2xl overflow-hidden bg-white">
             <img
-              src="/image/gr/all/bracelet3.png"
+              src="/image/webp/bracelet3.webp"
               alt="Gold ring close up"
               className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-700"
             />

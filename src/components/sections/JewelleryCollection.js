@@ -33,7 +33,7 @@ export default function JewelleryCollection() {
             </button> */}
             <div className="w-full aspect-square mt-6 overflow-hidden rounded-2xl flex items-center justify-center p-4">
               <img
-                src="/image/gr/all/ring4.png"
+                src="/image/webp/ring4.webp"
                 alt="Joyful Connection Ring"
                 className="w-full h-full object-contain transform hover:scale-110 transition-transform duration-700"
               />
@@ -46,7 +46,7 @@ export default function JewelleryCollection() {
           <Card3DTilt className="flex flex-col items-center bg-[#ECE6DC] p-8 rounded-t-full rounded-b-3xl border border-[#DCD3C6] shadow-md transform hover:-translate-y-2 transition-all mt-0 md:-mt-12">
             <div className="w-full aspect-[3/4] rounded-t-full rounded-b-2xl overflow-hidden mb-6 bg-[#DCD3C6] flex items-center justify-center">
               <img
-                src="/image/gr/all/necklace1.png"
+                src="/image/webp/necklace1.webp"
                 alt="Inspiration Necklaces"
                 className="max-w-full max-h-full object-contain transform hover:scale-105 transition-transform duration-700"
               />
@@ -76,7 +76,7 @@ export default function JewelleryCollection() {
             </button> */}
             <div className="w-full aspect-square mt-6 overflow-hidden rounded-2xl flex items-center justify-center p-4">
               <img
-                src="/image/gr/all/earring.png"
+                src="/image/webp/earring.webp"
                 alt="Amazing Earrings"
                 className="w-full h-full object-contain transform hover:scale-110 transition-transform duration-700"
               />

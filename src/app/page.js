@@ -15,8 +15,8 @@ export default function HomePage() {
     <div className="bg-[#FBF8F3] text-[#1D1D1D] min-h-screen font-sans selection:bg-[#1B4341] selection:text-white pb-20">
       <PromoBanner
         href="/contact"
-        desktopSrc="/image/banner-desktop.png"
-        mobileSrc="/image/banner-mobile.png"
+        desktopSrc="/image/banner-desktop.webp"
+        mobileSrc="/image/banner-mobile.webp"
         alt="Diamond collection banner"
       />
       <Hero />

@@ -66,7 +66,7 @@ export default function About() {
         {/* <RevealOnScroll mode="scale-up" delay={200} className="lg:col-span-6">
           <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-[#EADFC9]">
             <img
-              src="/image/gr/all/ring3.png"
+              src="/image/webp/ring3.webp"
               alt="G R Jewellers Indian Craftsmanship"
               className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-1000"
             />
@@ -81,7 +81,7 @@ export default function About() {
         <RevealOnScroll mode="scale-up" delay={200} className="lg:col-span-6">
           <div className="relative aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden ">
             <img
-              src="/image/gr/all/ring3.png"
+              src="/image/webp/ring3.webp"
               alt="G R Jewellers Indian Craftsmanship"
               className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-1000"
             />

@@ -30,7 +30,7 @@
 //         <div className="md:col-span-5 flex justify-center">
 //           <div className="w-64 aspect-[3/4] rounded-t-full rounded-b-2xl overflow-hidden shadow-xl border-4 border-white bg-white">
 //             <img
-//               src="/image/gr/8.png"
+//               src="/image/gr/8.webp"
 //               alt="Priya Patel Testimonial"
 //               className="w-full h-full object-cover"
 //             />
@@ -124,7 +124,7 @@ export default function Testimonial() {
           <div className="md:col-span-5 flex justify-center">
             <div className="w-64 aspect-[3/4] rounded-t-full rounded-b-2xl overflow-hidden shadow-xl border-4 border-white">
               <img
-                src="/image/gr/all/modal2.png"
+                src="/image/webp/modal2.webp"
                 alt={`${current.name} Testimonial`}
                 className="w-full h-full object-cover"
               />

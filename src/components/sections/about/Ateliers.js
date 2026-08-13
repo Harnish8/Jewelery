@@ -55,9 +55,9 @@ import { IconMapPin } from "@/components/Icons";
 import { RevealOnScroll, TextSplitReveal, ParallaxBox } from "@/components/LuxuryEffects";
 
 const ateliers = [
-  { city: "Custom Jewellery", note: "Bespoke Jewellery", image: "/image/tools.jpg" },
-  { city: "Bridal Jewellery", note: "Wedding Collection", image: "/image/gr/all/bridal.png" },
-  { city: "Gold, Diamond & Gemstone Jewellery", note: "Certified Gemstones", image: "/image/gr/all/ring5.png" },
+  { city: "Custom Jewellery", note: "Bespoke Jewellery", image: "/image/tools.webp" },
+  { city: "Bridal Jewellery", note: "Wedding Collection", image: "/image/webp/bridal.webp" },
+  { city: "Gold, Diamond & Gemstone Jewellery", note: "Certified Gemstones", image: "/image/webp/ring5.webp" },
 ];
 
 export default function Ateliers() {

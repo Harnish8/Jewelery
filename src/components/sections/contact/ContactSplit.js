@@ -39,7 +39,7 @@ export default function ContactSplit() {
         >
           <ParallaxBox speed={0.05} className="absolute inset-0 w-full h-full">
             <img
-              src="/image/gr/all/ring2.png"
+              src="/image/webp/ring2.webp"
               alt="G R Jewellers private salon"
               className="w-full h-full object-cover opacity-30 scale-110"
             />

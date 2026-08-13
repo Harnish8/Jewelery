@@ -44,7 +44,7 @@ export default function Hero() {
             <br />
             <span className="inline-flex items-center align-middle mx-1 px-3.5 py-1 rounded-full bg-white border border-[#EADFC9] shadow-md transform -rotate-3 hover:rotate-0 transition-transform">
               <img
-                src="/image/gr/all/ring1.png"
+                src="/image/webp/ring1.webp"
                 alt="Diamond Ring"
                 className="w-16 sm:w-20 h-9 sm:h-11 object-cover rounded-full"
               />
