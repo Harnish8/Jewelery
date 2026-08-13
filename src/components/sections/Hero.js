@@ -17,7 +17,7 @@ export default function Hero() {
   useEffect(() => {
     const timer = setTimeout(() => {
       bgVideoRef.current?.play().catch(() => {});
-    }, 5000);
+    }, 1000);
     return () => clearTimeout(timer);
   }, []);
 
