@@ -149,18 +149,18 @@ export default function Navbar() {
         }`}
       >
         {/* Drawer Header */}
-        <div className="flex items-center justify-between px-5 py-3.5 border-b bg-[#1B4341] border-[#EADFC9]">
+        <div className="flex items-center justify-between px-5 py-4 border-b bg-[#1B4341] border-[#EADFC9]">
           <Link
             href="/"
             className="flex items-center gap-2 text-xl font-serif font-bold text-[#EADFC9]"
             onClick={() => setMobileOpen(false)}
           >
-            <span className="relative w-11 h-11 shrink-0">
+            <span className="relative w-14 h-14 shrink-0">
               <Image
                 src="/image/logo.webp"
                 alt="G R Jewellers"
                 fill
-                sizes="60px"
+                sizes="80px"
                 className="object-contain"
               />
             </span>
@@ -171,7 +171,7 @@ export default function Navbar() {
           </Link>
           <button
             onClick={() => setMobileOpen(false)}
-            className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-[#EADFC9]/60 transition-colors text-[#1B4341]"
+            className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-[#EADFC9]/60 transition-colors text-[#EADFC9]"
             aria-label="Close menu"
           >
             <svg
