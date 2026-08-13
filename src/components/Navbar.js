@@ -40,7 +40,7 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`sticky top-0 z-50 w-full bg-[#1B4341]/98 backdrop-blur-md border-b border-white/10 px-4 sm:px-6 lg:px-16 flex items-center justify-between transition-all ${
+        className={`sticky top-0 z-50 w-full bg-[#1B4341]/98 backdrop-blur-md border-b border-white/10 px-4 flex items-center justify-between transition-all ${
           scrolled
             ? "py-2 shadow-md min-h-[72px]"
             : "py-2 sm:py-2 shadow-sm min-h-[80px] sm:min-h-[88px]"
@@ -149,7 +149,7 @@ export default function Navbar() {
         }`}
       >
         {/* Drawer Header */}
-        <div className="flex items-center justify-between px-5 py-5 border-b bg-[#1B4341] border-[#EADFC9]">
+        <div className="flex items-center justify-between px-5 py-3.5 border-b bg-[#1B4341] border-[#EADFC9]">
           <Link
             href="/"
             className="flex items-center gap-2 text-xl font-serif font-bold text-[#EADFC9]"
@@ -160,7 +160,7 @@ export default function Navbar() {
                 src="/image/logo.webp"
                 alt="G R Jewellers"
                 fill
-                sizes="44px"
+                sizes="60px"
                 className="object-contain"
               />
             </span>
