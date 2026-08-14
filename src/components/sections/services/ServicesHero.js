@@ -4,10 +4,19 @@
 import Link from "next/link";
 import { RevealOnScroll, TextSplitReveal } from "@/components/LuxuryEffects";
 
+// const serviceHighlights = [
+//   { label: "Bespoke Ring Design", icon: "💎" },
+//   { label: "Wedding Jewellery", icon: "💍" },
+//   { label: "Gold, Diamond & Gemstone Jewellery", icon: "✦" },
+// ];
+
 const serviceHighlights = [
-  { label: "Bespoke Ring Design", icon: "💎" },
-  { label: "Wedding Jewellery", icon: "💍" },
-  { label: "Gold, Diamond & Gemstone Jewellery", icon: "✦" },
+  { label: "Bespoke Ring Design", icon: "/image/webp/ring2.webp" },
+  { label: "Wedding Jewellery", icon: "/image/webp/set1.webp" },
+  {
+    label: "Gold, Diamond & Gemstone Jewellery",
+    icon: "/image/webp/bracelet2.webp",
+  },
 ];
 
 export default function ServicesHero() {
@@ -106,12 +115,14 @@ export default function ServicesHero() {
                   delay={400 + idx * 200}
                 >
                   <div
-                    className={`group relative bg-white/[0.06] backdrop-blur-md border border-white/10 rounded-2xl p-6 flex items-center gap-5 hover:bg-white/[0.12] hover:border-white/20 transition-all duration-500 cursor-default ${
-                      idx === 1 ? "lg:translate-x-8" : ""
-                    }`}
+                    className={`group relative bg-white/[0.06] backdrop-blur-md border border-white/10 rounded-2xl p-6 flex items-center gap-5 hover:bg-white/[0.12] hover:border-white/20 transition-all duration-500 cursor-default`}
                   >
-                    <div className="w-14 h-14 rounded-xl bg-[#EADFC9]/15 flex items-center justify-center text-2xl shrink-0 group-hover:scale-110 transition-transform duration-500">
-                      {item.icon}
+                    <div className="w-14 h-14 rounded-xl flex items-center justify-center text-2xl shrink-0 group-hover:scale-110 transition-transform duration-500 overflow-hidden">
+                      <img
+                        src={item.icon}
+                        alt={item.label}
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                     <div>
                       <h3 className="text-white font-serif text-lg tracking-wide">

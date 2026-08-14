@@ -79,14 +79,12 @@ export default function WhyChooseUs() {
                 mode="fade-in-up"
                 delay={idx * 120}
               >
-                <div className="group bg-white text-[#1D1D1D] rounded-2xl p-6 sm:p-8 border border-[#EADFC9]/60 hover:border-[#1B4341]/20 hover:shadow-xl transition-all duration-500 cursor-default">
-                  <div className="flex items-start gap-5 sm:gap-6">
+                <div className="group bg-white text-[#1D1D1D] rounded-2xl p-4 sm:p-6 border border-[#EADFC9]/60 hover:border-[#1B4341]/20 hover:shadow-xl transition-all duration-500 cursor-default min-h-[180px] flex items-center">
+                  <div className="flex items-start gap-5 sm:gap-6 w-full">
                     {/* Number badge */}
-                    <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-[#1B4341]/5 flex items-center justify-center shrink-0 group-hover:bg-[#1B4341] transition-colors duration-500">
-                      <span className="text-xl group-hover:hidden transition-opacity">
-                        {reason.icon}
-                      </span>
-                      <span className="text-sm font-serif text-white hidden group-hover:block transition-opacity">
+                    {/* Number badge */}
+                    <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-[#1B4341] flex items-center justify-center shrink-0">
+                      <span className="text-xl font-serif text-white">
                         {reason.number}
                       </span>
                     </div>

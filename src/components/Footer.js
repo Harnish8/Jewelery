@@ -7,21 +7,26 @@ export default function Footer() {
     <footer className="bg-[#1B4341] text-white pt-20 pb-12 px-6 mt-16 border-t border-[#122D2B]">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 pb-16 border-b border-white/15 text-sm font-light">
         <div>
-          <Link href="/" className="flex items-center gap-2 text-3xl font-serif font-bold text-white mb-4">
+          <Link
+            href="/"
+            className="flex items-center gap-2 text-3xl font-serif font-bold text-white mb-4"
+          >
             <span className="relative h-10 w-[62px] sm:h-12 sm:w-[74px] lg:h-14 lg:w-[86px] shrink-0">
-                          <Image
-                            src="/image/logo.webp"
-                            alt="G R Jewellers"
-                            fill
-                            quality={80}
-                            sizes="(max-width: 640px) 124px, (max-width: 1024px) 148px, 172px"
-                            className="object-contain image-render-crisp"
-                          />
-                        </span>
+              <Image
+                src="/image/logo.webp"
+                alt="G R Jewellers"
+                fill
+                quality={80}
+                sizes="(max-width: 640px) 124px, (max-width: 1024px) 148px, 172px"
+                className="object-contain image-render-crisp"
+              />
+            </span>
             <span>G R Jewellers</span>
           </Link>
           <p className="text-xs text-zinc-300 leading-relaxed max-w-xs">
-            Discover timeless diamond, gold and silver jewellery at GR Jewellers, a trusted jewellery store in Anand, handcrafted by a GIA Certified Jeweller.
+            Discover timeless diamond, gold and silver jewellery at GR
+            Jewellers, a trusted jewellery store in Anand, handcrafted by a GIA
+            Certified Jeweller.
           </p>
           {/* <div className="flex items-center gap-4 mt-6 text-zinc-300">
             <Link href="https://www.instagram.com/g.r.jewellerss/" ><IconInstagram className="w-4 h-4 cursor-pointer hover:text-white" /></Link>
@@ -34,10 +39,35 @@ export default function Footer() {
             Navigation
           </h4>
           <ul className="space-y-2.5 text-xs text-zinc-300">
-            <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-            <li><Link href="/services" className="hover:text-white transition-colors">Services</Link></li>
-            <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
-            <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
+            <li>
+              <Link href="/" className="hover:text-white transition-colors">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services"
+                className="hover:text-white transition-colors"
+              >
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/about"
+                className="hover:text-white transition-colors"
+              >
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/contact"
+                className="hover:text-white transition-colors"
+              >
+                Contact
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -70,18 +100,37 @@ export default function Footer() {
               Join
             </button>
           </div> */}
-          <div className="flex items-center gap-4 mt-6 text-zinc-300">
-            <Link href="https://www.instagram.com/g.r.jewellerss/" ><IconInstagram className="w-4 h-4 cursor-pointer hover:text-white" /></Link>
-            <Link href="https://www.facebook.com/GRJewellers/" ><IconFacebook className="w-4 h-4 cursor-pointer hover:text-white" /></Link>
+          <div className="flex items-center gap-4 mt-6">
+            <Link
+              href="https://www.instagram.com/g.r.jewellerss/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IconInstagram className="w-5 h-5 transition-transform hover:scale-110" />
+            </Link>
+            <Link
+              href="https://www.facebook.com/GRJewellers/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IconFacebook className="w-5 h-5 transition-transform hover:scale-110" />
+            </Link>
           </div>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-400">
-        <p>Copyright © {new Date().getFullYear()} G R Jewellers. All rights reserved.</p>
+        <p>
+          Copyright © {new Date().getFullYear()} G R Jewellers. All rights
+          reserved.
+        </p>
         <div className="flex gap-6 mt-4 sm:mt-0">
-          <Link href="/privacy-policy" className="hover:text-white">Privacy Policy</Link>
-          <Link href="/termsconditions" className="hover:text-white">Terms & Conditions</Link>
+          <Link href="/privacy-policy" className="hover:text-white">
+            Privacy Policy
+          </Link>
+          <Link href="/termsconditions" className="hover:text-white">
+            Terms & Conditions
+          </Link>
         </div>
       </div>
     </footer>

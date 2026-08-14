@@ -31,17 +31,57 @@ export const IconPlay = ({ className = "w-5 h-5" }) => (
   </svg>
 );
 
+// export const IconInstagram = ({ className = "w-5 h-5" }) => (
+//   <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+//     <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+//     <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+//     <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+//   </svg>
+// );
+
+// export const IconFacebook = ({ className = "w-5 h-5" }) => (
+//   <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+//     <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+//   </svg>
+// );
+
 export const IconInstagram = ({ className = "w-5 h-5" }) => (
-  <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+  <svg className={className} viewBox="0 0 24 24">
+    <defs>
+      <linearGradient id="igGlow" x1="0%" y1="100%" x2="100%" y2="0%">
+        <stop offset="0%" stopColor="#f09433" />
+        <stop offset="25%" stopColor="#e6683c" />
+        <stop offset="50%" stopColor="#dc2743" />
+        <stop offset="75%" stopColor="#cc2366" />
+        <stop offset="100%" stopColor="#bc1888" />
+      </linearGradient>
+    </defs>
+    <rect width="24" height="24" rx="6" fill="url(#igGlow)" />
+    <rect
+      x="5"
+      y="5"
+      width="14"
+      height="14"
+      rx="4"
+      fill="none"
+      stroke="#ffffff"
+      strokeWidth="1.6"
+    />
+    <circle
+      cx="12"
+      cy="12"
+      r="3.2"
+      fill="none"
+      stroke="#ffffff"
+      strokeWidth="1.6"
+    />
+    <circle cx="15.8" cy="8.2" r="0.8" fill="#ffffff" />
   </svg>
 );
 
 export const IconFacebook = ({ className = "w-5 h-5" }) => (
-  <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+  <svg className={className} viewBox="0 0 24 24" fill="#1877F2">
+    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
   </svg>
 );
 

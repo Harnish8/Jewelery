@@ -25,7 +25,7 @@ const newArrivals = [
     id: 104,
     name: "Gold Necklace",
     spec: "Custom Available",
-    img: "/image/webp/necklace2.webp",
+    img: "/image/webp/set8.webp",
   },
 ];
 

@@ -59,20 +59,19 @@ export default function ServiceProcess() {
           {/* Connecting line */}
           <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#EADFC9] to-transparent -translate-y-1/2" />
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 items-stretch">
             {steps.map((item, idx) => (
               <RevealOnScroll
                 key={item.step}
                 mode="fade-in-up"
                 delay={idx * 150}
+                className="h-full"
               >
-                <div className="group relative text-center bg-white rounded-2xl p-6 sm:p-8 border border-[#EADFC9]/50 hover:border-[#1B4341]/30 hover:shadow-xl transition-all duration-500">
-                  {/* Step number */}
+                <div className="group relative text-center bg-white rounded-2xl p-6 sm:p-8 border border-[#EADFC9]/50 hover:border-[#1B4341]/30 hover:shadow-xl transition-all duration-500 h-full flex flex-col">
                   <div className="w-14 h-14 rounded-full bg-[#1B4341] text-white flex items-center justify-center text-lg font-serif mx-auto mb-5 group-hover:scale-110 transition-transform duration-500 shadow-md">
                     {item.step}
                   </div>
 
-                  {/* Arrow connector (desktop only) */}
                   {idx < steps.length - 1 && (
                     <div className="hidden lg:block absolute -right-4 top-1/2 -translate-y-1/2 z-10 text-[#EADFC9] text-xl">
                       →
