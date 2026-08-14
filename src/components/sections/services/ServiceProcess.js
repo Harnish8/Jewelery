@@ -1,6 +1,7 @@
 "use client";
 
 import { RevealOnScroll } from "@/components/LuxuryEffects";
+import Link from "next/link";
 
 const steps = [
   {
@@ -112,18 +113,18 @@ export default function ServiceProcess() {
                 craftsmanship.
               </p>
               <div className="flex flex-wrap items-center justify-center gap-4">
-                <a
+                <Link
                   href="/contact"
                   className="bg-white text-[#1B4341] px-8 py-3.5 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-[#EADFC9] transition-all shadow-lg transform hover:-translate-y-0.5"
                 >
                   Book a Consultation
-                </a>
-                <a
+                </Link>
+                <Link
                   href="tel:+918160383801"
                   className="border border-white/30 text-white px-8 py-3.5 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-white/10 transition-all"
                 >
                   Call Us Today
-                </a>
+                </Link>
               </div>
             </div>
           </div>

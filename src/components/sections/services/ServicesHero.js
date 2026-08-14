@@ -53,7 +53,11 @@ export default function ServicesHero() {
             </RevealOnScroll>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-light text-white leading-[1.08] tracking-tight">
-              <TextSplitReveal text="Bespoke Jewellery," type="words" delay={200} />
+              <TextSplitReveal
+                text="Bespoke Jewellery,"
+                type="words"
+                delay={200}
+              />
               <br />
               <TextSplitReveal text="Crafted for" type="words" delay={350} />
               <br />
@@ -64,18 +68,24 @@ export default function ServicesHero() {
 
             <RevealOnScroll mode="fade-in-up" delay={700}>
               <p className="mt-8 text-sm sm:text-base text-white/60 font-light max-w-md leading-relaxed">
-                At GR Jewellers, we specialise in bespoke jewellery, custom & personalised jewellery, and elegant wedding jewellery designed to celebrate life&apos;s most meaningful moments. From custom engagement rings and couple wedding rings to handcrafted gold, diamond, gemstone, and colour stone jewellery, every creation is thoughtfully designed by our GIA Certified Jewellery Designer drawing on generations of family craftsmanship.
+                At GR Jewellers, we specialise in bespoke jewellery, custom &
+                personalised jewellery, and elegant wedding jewellery designed
+                to celebrate life&apos;s most meaningful moments. From custom
+                engagement rings and couple wedding rings to handcrafted gold,
+                diamond, gemstone, and colour stone jewellery, every creation is
+                thoughtfully designed by our GIA Certified Jewellery Designer
+                drawing on generations of family craftsmanship.
               </p>
             </RevealOnScroll>
 
             <RevealOnScroll mode="fade-in-up" delay={900}>
               <div className="mt-10 flex flex-wrap gap-4">
-                <a
+                <Link
                   href="/contact"
                   className="bg-white text-[#1B4341] px-8 py-3.5 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-[#EADFC9] transition-all shadow-lg transform hover:-translate-y-0.5"
                 >
                   Book Consultation
-                </a>
+                </Link>
                 <a
                   href="#our-services"
                   className="border border-white/30 text-white px-8 py-3.5 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-white/10 transition-all"

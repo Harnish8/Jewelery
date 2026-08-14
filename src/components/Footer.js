@@ -46,10 +46,10 @@ export default function Footer() {
             Support
           </h4>
           <ul className="space-y-2.5 text-xs text-zinc-300">
-            <li><a href="#shipping" className="hover:text-white transition-colors">Shipping & Returns</a></li>
-            <li><a href="#sizing" className="hover:text-white transition-colors">Ring Size Guide</a></li>
-            <li><a href="#care" className="hover:text-white transition-colors">Jewellery Care Instructions</a></li>
-            <li><a href="/contact" className="hover:text-white transition-colors">Customer Service</a></li>
+            <li><Link href="#shipping" className="hover:text-white transition-colors">Shipping & Returns</Link></li>
+            <li><Link href="#sizing" className="hover:text-white transition-colors">Ring Size Guide</Link></li>
+            <li><Link href="#care" className="hover:text-white transition-colors">Jewellery Care Instructions</Link></li>
+            <li><Link href="/contact" className="hover:text-white transition-colors">Customer Service</Link></li>
           </ul>
         </div> */}
 
@@ -80,8 +80,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-400">
         <p>Copyright © {new Date().getFullYear()} G R Jewellers. All rights reserved.</p>
         <div className="flex gap-6 mt-4 sm:mt-0">
-          <a href="/privacy-policy" className="hover:text-white">Privacy Policy</a>
-          <a href="/termsconditions" className="hover:text-white">Terms & Conditions</a>
+          <Link href="/privacy-policy" className="hover:text-white">Privacy Policy</Link>
+          <Link href="/termsconditions" className="hover:text-white">Terms & Conditions</Link>
         </div>
       </div>
     </footer>

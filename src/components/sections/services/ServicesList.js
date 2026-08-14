@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import Link from "next/link";
 import { RevealOnScroll, Card3DTilt } from "@/components/LuxuryEffects";
 import { IconGem, IconAward, IconLeaf } from "@/components/Icons";
 
@@ -76,7 +77,10 @@ export default function ServicesList() {
               Services We Offer
             </h2>
             <p className="mt-4 text-sm sm:text-base text-[#666] font-light max-w-xl mx-auto leading-relaxed">
-              Backed by over 100 years of family craftsmanship, we offer bespoke ring designs, wedding jewellery, and exquisite gold, silver, and diamond collections, thoughtfully crafted to be treasured for generations.
+              Backed by over 100 years of family craftsmanship, we offer bespoke
+              ring designs, wedding jewellery, and exquisite gold, silver, and
+              diamond collections, thoughtfully crafted to be treasured for
+              generations.
             </p>
           </div>
         </RevealOnScroll>
@@ -92,9 +96,7 @@ export default function ServicesList() {
               >
                 {/* Image */}
                 <div
-                  className={`${
-                    idx % 2 !== 0 ? "lg:order-2" : "lg:order-1"
-                  }`}
+                  className={`${idx % 2 !== 0 ? "lg:order-2" : "lg:order-1"}`}
                 >
                   <Card3DTilt className="rounded-3xl overflow-hidden h-[360px] flex items-center justify-center">
                     <img
@@ -107,12 +109,12 @@ export default function ServicesList() {
 
                 {/* Content */}
                 <div
-                  className={`${
-                    idx % 2 !== 0 ? "lg:order-1" : "lg:order-2"
-                  }`}
+                  className={`${idx % 2 !== 0 ? "lg:order-1" : "lg:order-2"}`}
                 >
                   <div className="flex items-center gap-3 mb-5">
-                    <div className={`w-11 h-11 rounded-xl bg-gradient-to-br ${service.accent} text-white flex items-center justify-center shadow-md`}>
+                    <div
+                      className={`w-11 h-11 rounded-xl bg-gradient-to-br ${service.accent} text-white flex items-center justify-center shadow-md`}
+                    >
                       <service.icon className="w-5 h-5" />
                     </div>
                     <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#999]">
@@ -131,9 +133,20 @@ export default function ServicesList() {
                   {/* Highlight list */}
                   <ul className="space-y-3 mb-8">
                     {service.highlights.map((item) => (
-                      <li key={item} className="flex items-center gap-3 text-sm text-[#444]">
+                      <li
+                        key={item}
+                        className="flex items-center gap-3 text-sm text-[#444]"
+                      >
                         <span className="w-5 h-5 rounded-full bg-[#1B4341]/10 flex items-center justify-center shrink-0">
-                          <svg className="w-3 h-3 text-[#1B4341]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                          <svg
+                            className="w-3 h-3 text-[#1B4341]"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="3"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
                             <polyline points="20 6 9 17 4 12" />
                           </svg>
                         </span>
@@ -142,16 +155,24 @@ export default function ServicesList() {
                     ))}
                   </ul>
 
-                  <a
+                  <Link
                     href="/contact"
                     className="inline-flex items-center gap-2 bg-[#1B4341] text-white px-7 py-3 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-[#122D2B] transition-all shadow-md transform hover:-translate-y-0.5"
                   >
                     Enquire Now
-                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <svg
+                      className="w-4 h-4"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
                       <line x1="5" y1="12" x2="19" y2="12" />
                       <polyline points="12 5 19 12 12 19" />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </RevealOnScroll>

@@ -120,13 +120,13 @@ export default function Navbar() {
           >
             <IconSearch className="w-4 h-4 sm:w-5 sm:h-5" />
           </button>
-          <a
+          <Link
             href="/contact"
             className="hidden sm:flex items-center gap-2 bg-white text-[#1B4341] px-4 md:px-6 lg:px-8 py-2.5 md:py-3 rounded-full text-[10px] md:text-xs font-bold uppercase tracking-widest hover:bg-[#EADFC9] transition-all shadow-md transform hover:-translate-y-0.5"
             id="cta-consultation"
           >
             <span className="whitespace-nowrap">Book Consultation</span>
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -215,13 +215,13 @@ export default function Navbar() {
 
         {/* Mobile CTA */}
         <div className="px-5 mt-4">
-          <a
+          <Link
             href="/contact"
             onClick={() => setMobileOpen(false)}
             className="flex items-center justify-center gap-2 w-full bg-[#1B4341] text-white px-5 py-3.5 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-[#122D2B] transition-all shadow-md"
           >
             Contact us
-          </a>
+          </Link>
         </div>
 
         {/* Decorative accent */}

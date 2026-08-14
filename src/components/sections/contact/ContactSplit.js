@@ -148,6 +148,22 @@ export default function ContactSplit() {
                 </div>
               ))}
             </div>
+
+            {/* Divider */}
+            <div className="h-px bg-white/15 my-8 lg:my-5" />
+
+            {/* Map */}
+            <div className="rounded-xl overflow-hidden border border-white/15 h-50 lg:h-60">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.701303154052!2d72.95189156133472!3d22.55275803034874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e4f9261bd77ab%3A0x66a24dbf62a5b5f9!2sTower%20bazaar!5e1!3m2!1sen!2sin!4v1786679161493!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="G R Jewellers Location"
+              />
+            </div>
           </div>
         </RevealOnScroll>
 
