@@ -160,13 +160,13 @@ export default function Navbar() {
         }`}
       >
         {/* Drawer Header */}
-        <div className="flex items-center justify-between px-5 py-4 border-b bg-[#1B4341] border-[#EADFC9]">
+        <div className="flex items-center justify-between px-2 py-4 border-b bg-[#1B4341] border-[#EADFC9]">
           <Link
             href="/"
             className="flex items-center gap-2 text-xl font-serif font-bold text-[#EADFC9]"
             onClick={() => setMobileOpen(false)}
           >
-            <span className="relative h-12 sm:h-14 lg:h-14 w-[clamp(250px,22vw,286px)] shrink-0">
+            <span className="relative h-12 sm:h-14 lg:h-14 w-[clamp(230px,22vw,266px)] shrink-0">
               <Image
                 src="/image/logo1.png"
                 alt="G R Jewellers"
