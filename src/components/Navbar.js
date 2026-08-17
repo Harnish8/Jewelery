@@ -166,19 +166,19 @@ export default function Navbar() {
             className="flex items-center gap-2 text-xl font-serif font-bold text-[#EADFC9]"
             onClick={() => setMobileOpen(false)}
           >
-            <span className="relative w-14 h-14 shrink-0">
+            <span className="relative h-12 sm:h-14 lg:h-14 w-[clamp(250px,22vw,286px)] shrink-0">
               <Image
-                src="/image/logo.webp"
+                src="/image/logo1.png"
                 alt="G R Jewellers"
                 fill
-                sizes="80px"
+                sizes="100px"
                 className="object-contain"
               />
             </span>
             {/* <span>G R Jewellers</span> */}
-            <span className="font-trajan text-gold-gradient font-bold tracking-normal">
+            {/* <span className="font-trajan text-gold-gradient font-bold tracking-normal">
               G R Jewellers
-            </span>
+            </span> */}
           </Link>
           <button
             onClick={() => setMobileOpen(false)}
