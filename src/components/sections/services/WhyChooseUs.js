@@ -82,7 +82,6 @@ export default function WhyChooseUs() {
                 <div className="group bg-white text-[#1D1D1D] rounded-2xl p-4 sm:p-6 border border-[#EADFC9]/60 hover:border-[#1B4341]/20 hover:shadow-xl transition-all duration-500 cursor-default min-h-[180px] flex items-center">
                   <div className="flex items-start gap-5 sm:gap-6 w-full">
                     {/* Number badge */}
-                    {/* Number badge */}
                     <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-[#1B4341] flex items-center justify-center shrink-0">
                       <span className="text-xl font-serif text-white">
                         {reason.number}

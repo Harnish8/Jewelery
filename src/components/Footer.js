@@ -11,17 +11,17 @@ export default function Footer() {
             href="/"
             className="flex items-center gap-2 text-3xl font-serif font-bold text-white mb-4"
           >
-            <span className="relative h-10 w-[62px] sm:h-12 sm:w-[74px] lg:h-14 lg:w-[86px] shrink-0">
+            <span className="relative h-12 sm:h-14 lg:h-14 w-[clamp(250px,22vw,286px)] shrink-0">
               <Image
-                src="/image/logo.webp"
+                src="/image/logo1.png"
                 alt="G R Jewellers"
                 fill
-                quality={80}
-                sizes="(max-width: 640px) 124px, (max-width: 1024px) 148px, 172px"
+                quality={100}
+                sizes="(max-width: 640px) 252px, (max-width: 1024px) 240px, 286px"
                 className="object-contain image-render-crisp"
               />
             </span>
-            <span>G R Jewellers</span>
+            {/* <span>G R Jewellers</span> */}
           </Link>
           <p className="text-xs text-zinc-300 leading-relaxed max-w-xs">
             Discover timeless diamond, gold and silver jewellery at GR
