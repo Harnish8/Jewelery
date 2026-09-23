@@ -2,6 +2,14 @@
 import Link from "next/link";
 import { RevealOnScroll, TextSplitReveal } from "@/components/LuxuryEffects";
 
+export const metadata = {
+  title: "Privacy Policy | GR Jewellers Anand",
+  description: "Read the Privacy Policy for GR Jewellers in Anand. Understand how we collect, use and protect your personal information while ensuring secure and trusted service.",
+  alternates: {
+    canonical: "/privacy-policy",
+  },
+};
+
 const sections = [
   {
     id: "information-we-collect",

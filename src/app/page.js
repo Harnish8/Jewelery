@@ -13,12 +13,12 @@ import PromoBanner from "@/components/sections/PromoBanner";
 export default function HomePage() {
   return (
     <div className="bg-[#FBF8F3] text-[#1D1D1D] min-h-screen font-sans selection:bg-[#1B4341] selection:text-white pb-20">
-      <PromoBanner
+      {/* <PromoBanner
         href="/contact"
         desktopSrc="/image/banner-desktop.webp"
         mobileSrc="/image/banner-mobile.webp"
         alt="Diamond collection banner"
-      />
+      /> */}
       <Hero />
       <StatsBanner />
       <JewelleryCollection />

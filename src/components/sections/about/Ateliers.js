@@ -7,7 +7,7 @@ import { RevealOnScroll, TextSplitReveal, ParallaxBox } from "@/components/Luxur
 const ateliers = [
   { city: "Custom Jewellery", note: "Bespoke Jewellery", image: "/image/tools.webp" },
   { city: "Bridal Jewellery", note: "Wedding Collection", image: "/image/webp/bridal.webp" },
-  { city: "Gold, Diamond & Gemstone Jewellery", note: "Certified Gemstones", image: "/image/webp/ring5.webp" },
+  { city: "Gold, Diamond & Gemstone Jewellery", note: "Certified Gemstones", image: "/image/webp/gemstone.webp" },
 ];
 
 export default function Ateliers() {

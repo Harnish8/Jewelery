@@ -2,6 +2,14 @@
 import Link from "next/link";
 import { RevealOnScroll, TextSplitReveal } from "@/components/LuxuryEffects";
 
+export const metadata = {
+  title: "Terms & Conditions | GR Jewellers Anand",
+  description: "Read the Terms & Conditions for GR Jewellers. Understand our policies on custom jewellery, website use, pricing and terms of service in Anand.",
+  alternates: {
+    canonical: "/termsconditions",
+  },
+};
+
 const sections = [
   {
     id: "website-use",

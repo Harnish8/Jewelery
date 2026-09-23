@@ -6,6 +6,9 @@ import FaqAccordion from "@/components/sections/contact/FaqAccordion";
 export const metadata = {
   title: "Contact GR Jewellers | Jewellery Experts in Anand, Gujarat",
   description: "Contact GR Jewellers in Anand for custom jewellery, wedding designs, diamonds and gemstones. Speak with our experts or visit our showroom today.",
+  alternates: {
+    canonical: "/contact",
+  },
 };
 
 export default function ContactPage() {

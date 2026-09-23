@@ -122,7 +122,15 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-400">
         <p>
           Copyright © {new Date().getFullYear()} G R Jewellers. All rights
-          reserved.
+          reserved. | Developed by{" "}
+          <Link
+            href="https://valtrixmedia.com.au/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white"
+          >
+            Valtrix Media
+          </Link>
         </p>
         <div className="flex gap-6 mt-4 sm:mt-0">
           <Link href="/privacy-policy" className="hover:text-white">

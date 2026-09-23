@@ -8,7 +8,11 @@ import AboutCta from "@/components/sections/about/AboutCta";
 
 export const metadata = {
   title: "About GR Jewellers | Heritage Jewellery Experts in Anand",
-  description: "Discover the story behind GR Jewellers in Anand, built on generations of craftsmanship, trusted expertise and personalised jewellery design.",
+  description:
+    "Discover the story behind GR Jewellers in Anand, built on generations of craftsmanship, trusted expertise and personalised jewellery design.",
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 export default function AboutPage() {
