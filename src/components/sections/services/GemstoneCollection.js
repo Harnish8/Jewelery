@@ -1,32 +1,31 @@
 // components/GemstoneCollection.jsx
 "use client";
+import Image from "next/image";
 
-import { RevealOnScroll, ParallaxBox } from "@/components/LuxuryEffects";
+import { RevealOnScroll } from "@/components/LuxuryEffects";
+
+
 
 const gemstones = [
   {
     name: "Ruby",
     note: "Passion & Vitality",
-    image:
-      "https://keevajewels.com/cdn/shop/files/A_high-resolution_close-up_of_a_faceted_ruby_gemstone_placed_on_a_clean_pure_white_background._The_ruby_shines_with_deep_vibrant_red_tones_displaying_sharp_light_reflections_and_inter_360x.jpg?v=1748065242",
+    image: "/image/webp/2.webp",
   },
   {
     name: "Emerald",
     note: "Renewal & Growth",
-    image:
-      "https://keevajewels.com/cdn/shop/files/A_high-resolution_close-up_of_a_faceted_green_emerald_gemstone_placed_on_a_clean_pure_white_background._The_emerald_displays_rich_deep_green_hues_with_subtle_variations_and_natural_in_360x.jpg?v=1748066795",
+    image: "/image/webp/1.webp",
   },
   {
     name: "Sapphire",
     note: "Wisdom & Loyalty",
-    image:
-      "https://keevajewels.com/cdn/shop/files/I_need_prompt_for_blue_sapphire_gemstone_hd_image_in_white_back_ground_360x.jpg?v=1748066890",
+    image: "/image/webp/3.webp",
   },
   {
     name: "Topaz",
     note: "Warmth & Clarity",
-    image:
-      "https://keevajewels.com/cdn/shop/files/A_high-resolution_close-up_of_a_faceted_peridot_gemstone_resting_on_a_clean_pure_white_background._The_gemstone_glows_with_vibrant_green_hues_and_golden_undertones_showcasing_its_natu_360x.jpg?v=1748066716",
+    image: "/image/webp/4.webp",
   },
 ];
 
@@ -54,17 +53,14 @@ export default function GemstoneCollection() {
         {gemstones.map((g, idx) => (
           <RevealOnScroll key={g.name} mode="scale-up" delay={idx * 120}>
             <div className="relative rounded-2xl overflow-hidden border-2 border-white/20 aspect-square group">
-              <ParallaxBox
-                speed={0.04}
-                className="absolute inset-0 w-full h-full"
-              >
-                <img
-                  src={g.image}
-                  alt={`${g.name} gemstone`}
-                  className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-700"
-                  loading="lazy"
-                />
-              </ParallaxBox>
+              <Image
+                src={g.image}
+                alt={`${g.name} gemstone`}
+                fill
+                sizes="(min-width: 1024px) 25vw, 50vw"
+                className="object-cover scale-70 group-hover:scale-85 transition-transform duration-700"
+              />
+
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
               <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 right-3 sm:right-4 text-white">
                 <h3 className="text-xs sm:text-sm font-serif leading-tight">

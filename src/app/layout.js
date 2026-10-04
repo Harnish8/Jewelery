@@ -8,6 +8,7 @@ import Navbar from "@/components/Navbar";
 import Script from "next/script";
 import Footer from "@/components/Footer";
 import "./globals.css";
+import WhatsAppWidget from "@/components/WhatsAppWidget";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-serif",
@@ -81,6 +82,12 @@ export default function RootLayout({ children }) {
           <main className="flex-1">{children}</main>
           <Footer />
         </div>
+
+        <WhatsAppWidget
+          phoneNumber="919898891211"
+          message="Hello GR Jewellers! I would like to inquire about custom jewellery."
+          companyName="GR Jewellers"
+        />
       </body>
     </html>
   );

@@ -1,60 +1,34 @@
 // components/LabGrownDiamonds.jsx
 "use client";
+import Image from "next/image";
 
 import {
   RevealOnScroll,
-  Card3DTilt,
   TextSplitReveal,
-  ParallaxBox,
 } from "@/components/LuxuryEffects";
 
-// const shapes = [
-//   {
-//     name: "Round Brilliant",
-//     note: "Maximum Sparkle",
-//     image: "/image/webp/diamond-round.webp",
-//   },
-//   {
-//     name: "Oval Cut",
-//     note: "Elongating Fire",
-//     image: "/image/webp/diamond-oval.webp",
-//   },
-//   {
-//     name: "Princess Cut",
-//     note: "Modern Precision",
-//     image: "/image/webp/diamond-princess.webp",
-//   },
-//   {
-//     name: "Marquise Cut",
-//     note: "Timeless Elegance",
-//     image: "/image/webp/diamond-marquise.webp",
-//   },
-// ];
+
 
 const shapes = [
   {
     name: "Round Brilliant",
     note: "Maximum Sparkle",
-    image:
-      "https://keevajewels.com/cdn/shop/files/Flux_Dev_A_highresolution_closeup_of_a_round_brilliantcut_labg_1_900x.jpg?v=1748063422",
+    image: "/image/webp/6.webp",
   },
   {
     name: "Oval Cut",
     note: "Elongating Fire",
-    image:
-      "https://keevajewels.com/cdn/shop/files/A_high-resolution_close-up_of_a_Oval_shape_lab-grown_diamond_resting_on_a_dark_matte_background._The_diamond_sparkles_vividly_with_crisp_sharp_light_reflections_and_multicolored_dispe_900x.jpg?v=1748064549",
+    image: "/image/webp/5.webp",
   },
   {
     name: "Princess Cut",
     note: "Modern Precision",
-    image:
-      "https://keevajewels.com/cdn/shop/files/A_high-resolution_close-up_of_a_princess_shape_lab-grown_diamond_resting_on_a_dark_matte_background._The_diamond_sparkles_vividly_with_crisp_sharp_light_reflections_and_multicolored_d_900x.jpg?v=1748064597",
+    image: "/image/webp/7.webp",
   },
   {
     name: "Marquise Cut",
     note: "Timeless Elegance",
-    image:
-      "https://keevajewels.com/cdn/shop/files/A_high-resolution_close-up_of_a_marquise_shape_lab-grown_diamond_resting_on_a_dark_matte_background._The_diamond_sparkles_vividly_with_crisp_sharp_light_reflections_and_multicolored_d_900x.jpg?v=1748064655",
+    image: "/image/webp/8.webp",
   },
 ];
 
@@ -81,17 +55,13 @@ export default function LabGrownDiamonds() {
         {shapes.map((s, idx) => (
           <RevealOnScroll key={s.name} mode="scale-up" delay={idx * 120}>
             <div className="relative rounded-2xl overflow-hidden border border-[#EADFC9] aspect-square group">
-              <ParallaxBox
-                speed={0.04}
-                className="absolute inset-0 w-full h-full"
-              >
-                <img
-                  src={s.image}
-                  alt={`${s.name} lab grown diamond`}
-                  className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-700"
-                  loading="lazy"
-                />
-              </ParallaxBox>
+              <Image
+                src={s.image}
+                alt={`${s.name} lab grown diamond`}
+                fill
+                sizes="(min-width: 1024px) 25vw, 50vw"
+                className="object-cover scale-70 group-hover:scale-85 transition-transform duration-700"
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
               <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 right-3 sm:right-4 text-white">
                 <h3 className="text-xs sm:text-sm font-serif leading-tight">
