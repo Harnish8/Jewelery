@@ -58,7 +58,7 @@ export default function GemstoneCollection() {
                 alt={`${g.name} gemstone`}
                 fill
                 sizes="(min-width: 1024px) 25vw, 50vw"
-                className="object-cover scale-70 group-hover:scale-85 transition-transform duration-700"
+                className="object-cover scale-[0.7] group-hover:scale-[0.85] transition-transform duration-700"
               />
 
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />

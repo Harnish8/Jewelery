@@ -3,7 +3,7 @@
 import { IconWhatsApp, IconClose } from "@/components/Icons";
 
 export default function SimpleWhatsAppButton() {
-  const phoneNumber = "919898891211";
+  const phoneNumber = "919825238877";
   const defaultMessage = encodeURIComponent("Hello! I came from your website.");
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${defaultMessage}`;
 

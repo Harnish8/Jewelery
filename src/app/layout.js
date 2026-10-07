@@ -84,7 +84,7 @@ export default function RootLayout({ children }) {
         </div>
 
         <WhatsAppWidget
-          phoneNumber="919898891211"
+          phoneNumber="919825238877"
           message="Hello GR Jewellers! I would like to inquire about custom jewellery."
           companyName="GR Jewellers"
         />
