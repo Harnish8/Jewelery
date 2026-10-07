@@ -97,7 +97,7 @@ const groups = [
       },
       {
         name: "Natural Fancy Color",
-        note: "Earth-Formed Natural Color",
+        note: "Earth Formed Natural Color",
         cert: "GIA Certified",
         image: "/image/webp/5.webp", // replace with natural diamond image
       },
@@ -150,7 +150,7 @@ export default function Diamonds() {
         </h2>
 
         <p className="mt-4 mx-auto max-w-xl text-sm sm:text-base text-[#666] font-light leading-relaxed">
-          Choose natural or laboratory-grown. Every stone is independently
+          Choose natural or laboratory grown. Every stone is independently
           graded and accompanied by a GIA or IGI report.
         </p>
       </RevealOnScroll>
