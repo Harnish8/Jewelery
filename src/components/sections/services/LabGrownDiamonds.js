@@ -11,9 +11,9 @@ import {
 
 const shapes = [
   {
-    name: "Round Brilliant",
+    name: "Diamond",
     note: "Maximum Sparkle",
-    image: "/image/webp/6.webp",
+    image: "/image/webp/diamond.webp",
   },
   {
     name: "Oval Cut",
