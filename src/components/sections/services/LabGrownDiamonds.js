@@ -13,7 +13,7 @@ const shapes = [
   {
     name: "Diamond",
     note: "Maximum Sparkle",
-    image: "/image/webp/diamond.webp",
+    image: "/image/webp/diamond.png",
   },
   {
     name: "Oval Cut",
