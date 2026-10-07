@@ -100,14 +100,14 @@ const groups = [
     sub: "Formed over billions of years beneath the earth",
     items: [
       {
-        name: "Round Brilliant",
-        note: "Maximum Sparkle",
+        name: "Natural Rough Diamond",
+        note: "Uncut, Straight From Earth",
         cert: "GIA Certified",
         image: "/image/webp/diamond.png", // replace with natural diamond image
       },
       {
-        name: "Oval Cut",
-        note: "Elongating Fire",
+        name: "Natural Fancy Color",
+        note: "Earth-Formed Natural Color",
         cert: "GIA Certified",
         image: "/image/webp/5.webp", // replace with natural diamond image
       },
